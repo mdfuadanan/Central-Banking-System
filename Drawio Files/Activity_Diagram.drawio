@@ -1,0 +1,972 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram id="central-banking-v9-activity" name="Corrected Activity Diagram">
+    <mxGraphModel dx="3320" dy="2503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5040" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lane_governor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff3e8;strokeColor=#e7cfbb;strokeWidth=3;connectable=0;" value="" vertex="1">
+          <mxGeometry height="2920" width="720" x="80" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_governor_header" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d3ab88;strokeColor=#e7cfbb;strokeWidth=3;fontColor=#17202a;fontFamily=Segoe UI;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;connectable=0;" value="&lt;b&gt;Governor&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="720" x="80" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_admin" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef6fd;strokeColor=#c8dceb;strokeWidth=3;connectable=0;" value="" vertex="1">
+          <mxGeometry height="2920" width="820" x="800" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_admin_header" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7aa6c8;strokeColor=#c8dceb;strokeWidth=3;fontColor=#17202a;fontFamily=Segoe UI;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;connectable=0;" value="&lt;b&gt;Admin (Central Bank)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="820" x="800" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_bank" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#edf7ee;strokeColor=#c7ddc9;strokeWidth=3;connectable=0;" value="" vertex="1">
+          <mxGeometry height="2920" width="820" x="1620" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_bank_header" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9dbb92;strokeColor=#c7ddc9;strokeWidth=3;fontColor=#17202a;fontFamily=Segoe UI;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;connectable=0;" value="&lt;b&gt;Commercial Bank&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="820" x="1620" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_system" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff8dc;strokeColor=#ead494;strokeWidth=3;connectable=0;" value="" vertex="1">
+          <mxGeometry height="2920" width="1450" x="2440" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_system_header" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e2c27a;strokeColor=#ead494;strokeWidth=3;fontColor=#17202a;fontFamily=Segoe UI;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;connectable=0;" value="&lt;b&gt;System&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="1450" x="2440" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f2f7;strokeColor=#d6dce1;strokeWidth=3;connectable=0;" value="" vertex="1">
+          <mxGeometry height="2920" width="1050" x="3890" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_db_header" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a7afb7;strokeColor=#d6dce1;strokeWidth=3;fontColor=#17202a;fontFamily=Segoe UI;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;connectable=0;" value="&lt;b&gt;CSV Storage&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="1050" x="3890" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gov_start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="46" width="46" x="417" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="gov_login" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Open Governor login&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="310" x="285" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="gov_auth" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Authenticate Governor&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="310" x="285" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="gov_valid" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Valid&lt;/div&gt;&lt;div&gt;credentials?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="250" x="315" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="gov_dash" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Governor dashboard&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="310" x="285" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="gov_review" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Review approval&lt;/div&gt;&lt;div&gt;requests&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="390" x="245" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="gov_details" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Check request details&lt;/div&gt;&lt;div&gt;and remarks&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="390" x="245" y="955" as="geometry" />
+        </mxCell>
+        <mxCell id="gov_approve" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Approve&lt;/div&gt;&lt;div&gt;request?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="250" x="315" y="1075" as="geometry" />
+        </mxCell>
+        <mxCell id="gov_admins" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Manage administrator&lt;/div&gt;&lt;div&gt;accounts&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="390" x="245" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="gov_direct_policy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Direct reserve /&lt;/div&gt;&lt;div&gt;policy update&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="390" x="245" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="gov_reports" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;View national reports,&lt;/div&gt;&lt;div&gt;logs and analytics&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="390" x="245" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="gov_profile" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Update profile /&lt;/div&gt;&lt;div&gt;password&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="390" x="245" y="1620" as="geometry" />
+        </mxCell>
+        <mxCell id="gov_notifications" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;View alerts and&lt;/div&gt;&lt;div&gt;notifications&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="390" x="245" y="1740" as="geometry" />
+        </mxCell>
+        <mxCell id="OsHPtJ8Oc_GZqcHw_wGB-1" edge="1" parent="1" source="gov_logout" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gov_end" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gov_logout" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Logout&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="310" x="285" y="1880" as="geometry" />
+        </mxCell>
+        <mxCell id="gov_end_outer" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=4;" value="" vertex="1">
+          <mxGeometry height="54" width="54" x="413" y="1985" as="geometry" />
+        </mxCell>
+        <mxCell id="gov_end" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="34" width="34" x="423" y="1995" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="46" width="46" x="1187" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_login" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fbff;strokeColor=#7aa6c8;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Open Admin login&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="300" x="1060" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_auth" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fbff;strokeColor=#7aa6c8;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Authenticate Admin&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="300" x="1060" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_valid" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f7fbff;strokeColor=#7aa6c8;strokeWidth=3;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Valid&lt;/div&gt;&lt;div&gt;credentials?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="250" x="1085" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_dash" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fbff;strokeColor=#7aa6c8;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Admin dashboard&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="300" x="1060" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_bank_manage" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fbff;strokeColor=#7aa6c8;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Register / edit bank&lt;/div&gt;&lt;div&gt;information&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="470" x="975" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_approval_request" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fbff;strokeColor=#7aa6c8;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Submit Governor&lt;/div&gt;&lt;div&gt;approval request&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="470" x="975" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_loan_review" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fbff;strokeColor=#7aa6c8;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Review pending&lt;/div&gt;&lt;div&gt;loan queue&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="470" x="975" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_loan_decision" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f7fbff;strokeColor=#7aa6c8;strokeWidth=3;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Approve&lt;/div&gt;&lt;div&gt;loan?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="250" x="1085" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_reserve_policy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fbff;strokeColor=#7aa6c8;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Request money supply,&lt;/div&gt;&lt;div&gt;reserve or policy change&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="470" x="975" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_reports" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fbff;strokeColor=#7aa6c8;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Generate reports&lt;/div&gt;&lt;div&gt;and analytics&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="470" x="975" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_notifications" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fbff;strokeColor=#7aa6c8;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;View notifications&lt;/div&gt;&lt;div&gt;and own requests&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="470" x="975" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_cancel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fbff;strokeColor=#7aa6c8;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Cancel own pending&lt;/div&gt;&lt;div&gt;request&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="470" x="975" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="OsHPtJ8Oc_GZqcHw_wGB-2" edge="1" parent="1" source="admin_logout" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="admin_end" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_logout" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fbff;strokeColor=#7aa6c8;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Logout&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="300" x="1060" y="1940" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_end_outer" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=4;" value="" vertex="1">
+          <mxGeometry height="54" width="54" x="1183" y="2045" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_end" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="34" width="34" x="1193" y="2055" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="46" width="46" x="2007" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_login" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fcf7;strokeColor=#9dbb92;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Open Bank login&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="300" x="1880" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_auth" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fcf7;strokeColor=#9dbb92;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Authenticate Bank&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="300" x="1880" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_valid" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8fcf7;strokeColor=#9dbb92;strokeWidth=3;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Valid and&lt;/div&gt;&lt;div&gt;ACTIVE?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="250" x="1905" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_dash" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fcf7;strokeColor=#9dbb92;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Bank dashboard&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="300" x="1880" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_profile" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fcf7;strokeColor=#9dbb92;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Update bank&lt;/div&gt;&lt;div&gt;profile&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="460" x="1800" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_customer" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fcf7;strokeColor=#9dbb92;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Add / edit&lt;/div&gt;&lt;div&gt;customers&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="460" x="1800" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_account" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fcf7;strokeColor=#9dbb92;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Deposit / withdraw&lt;/div&gt;&lt;div&gt;customer accounts&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="460" x="1800" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_loan" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fcf7;strokeColor=#9dbb92;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Submit central bank&lt;/div&gt;&lt;div&gt;loan application&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="460" x="1800" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_transfer" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fcf7;strokeColor=#9dbb92;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Initiate transfer&lt;/div&gt;&lt;div&gt;or payment&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="460" x="1800" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_reports" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fcf7;strokeColor=#9dbb92;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;View transactions&lt;/div&gt;&lt;div&gt;and reports&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="460" x="1800" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_notifications" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fcf7;strokeColor=#9dbb92;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;View alerts and&lt;/div&gt;&lt;div&gt;notifications&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="460" x="1800" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="OsHPtJ8Oc_GZqcHw_wGB-3" edge="1" parent="1" source="bank_logout" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bank_end" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_logout" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fcf7;strokeColor=#9dbb92;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Logout&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="300" x="1880" y="1940" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_end_outer" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=4;" value="" vertex="1">
+          <mxGeometry height="54" width="54" x="2003" y="2045" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_end" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="34" width="34" x="2013" y="2055" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="46" width="46" x="3142" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_boot" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7d7;strokeColor=#d7b35e;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=17;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;&lt;b&gt;Load application and data&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;FileManager initializes CSV files and CentralBankSystem loads records&lt;/div&gt;" vertex="1">
+          <mxGeometry height="128" width="1160" x="2585" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_auth" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7d7;strokeColor=#d7b35e;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=17;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;&lt;b&gt;Authenticate and authorize role&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;LoginManager validates credentials; SessionManager creates or rejects session&lt;/div&gt;" vertex="1">
+          <mxGeometry height="128" width="1160" x="2585" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_role_ok" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff7d7;strokeColor=#d7b35e;strokeWidth=3;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Session&lt;/div&gt;&lt;div&gt;authorized?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="3020" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_dashboard" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7d7;strokeColor=#d7b35e;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=17;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;&lt;b&gt;Render role dashboard&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;PageRenderer builds Governor, Admin, or Commercial Bank portal view&lt;/div&gt;" vertex="1">
+          <mxGeometry height="128" width="1160" x="2585" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_approval_create" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7d7;strokeColor=#d7b35e;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=17;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;&lt;b&gt;Create approval request&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Admin submits bank, reserve, policy, money supply, or general request; Governor is notified&lt;/div&gt;" vertex="1">
+          <mxGeometry height="128" width="1160" x="2585" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_approval_review" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7d7;strokeColor=#d7b35e;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=17;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;&lt;b&gt;Review and execute Governor decision&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Approve: activate/suspend/revoke bank, supply money, update reserve/policy, or record decision; Reject: save status and notify Admin&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="1160" x="2585" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_bank_registry" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7d7;strokeColor=#d7b35e;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=17;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;&lt;b&gt;Bank registry processing&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Create pending bank application, edit bank data, activate after approval, or mark suspended/revoked&lt;/div&gt;" vertex="1">
+          <mxGeometry height="128" width="1160" x="2585" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_loan" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7d7;strokeColor=#d7b35e;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=17;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;&lt;b&gt;Loan processing&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Bank applies; RiskAssessment sets score/level; Admin approves/rejects; approved loans disburse and update reserve/bank/loan records&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="1160" x="2585" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_customer_account" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7d7;strokeColor=#d7b35e;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=17;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;&lt;b&gt;Customer and account processing&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Add/edit customer, create account, deposit, withdraw, update bank assets and transaction history&lt;/div&gt;" vertex="1">
+          <mxGeometry height="145" width="1160" x="2585" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_transaction" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7d7;strokeColor=#d7b35e;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=17;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;&lt;b&gt;Transfer processing&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Validate sender/receiver/balance; FraudDetector may flag; save success, failed, or flagged transaction&lt;/div&gt;" vertex="1">
+          <mxGeometry height="145" width="1160" x="2585" y="1820" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_reserve_policy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7d7;strokeColor=#d7b35e;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=17;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;&lt;b&gt;Reserve, liquidity and policy processing&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Approved or Governor-direct changes update Reserve, LiquidityOperation, MonetaryPolicy and low-reserve alerts&lt;/div&gt;" vertex="1">
+          <mxGeometry height="145" width="1160" x="2585" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_exchange_report" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7d7;strokeColor=#d7b35e;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=17;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;&lt;b&gt;Exchange rates, reports and public data&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;ExchangeRateService loads live/cached rates; ReportService generates reports from current records&lt;/div&gt;" vertex="1">
+          <mxGeometry height="145" width="1160" x="2585" y="2180" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_notify_audit" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7d7;strokeColor=#d7b35e;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=17;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;&lt;b&gt;Notifications, alerts and logs&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:13px;margin-top:4px&quot;&gt;Save notifications, audit trail, login logs and activity history&lt;/div&gt;" vertex="1">
+          <mxGeometry height="128" width="1160" x="2585" y="2360" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_logout" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7d7;strokeColor=#d7b35e;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=16;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Destroy session&lt;/div&gt;&lt;div&gt;and clear cookie&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="300" x="3015" y="2530" as="geometry" />
+        </mxCell>
+        <mxCell id="db_credentials" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3edf8;strokeColor=#a7afb7;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;governor.csv&lt;/div&gt;&lt;div&gt;administrators.csv&lt;/div&gt;&lt;div&gt;banks.csv credentials/status&lt;/div&gt;" vertex="1">
+          <mxGeometry height="112" width="760" x="4045" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="db_login_logs" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3edf8;strokeColor=#a7afb7;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;login_logs.csv&lt;/div&gt;" vertex="1">
+          <mxGeometry height="78" width="760" x="4045" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="db_approval" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3edf8;strokeColor=#a7afb7;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;approval_requests.csv&lt;/div&gt;" vertex="1">
+          <mxGeometry height="78" width="760" x="4045" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="db_banks" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3edf8;strokeColor=#a7afb7;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;banks.csv&lt;/div&gt;" vertex="1">
+          <mxGeometry height="78" width="760" x="4045" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="db_loans" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3edf8;strokeColor=#a7afb7;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;loans.csv&lt;/div&gt;&lt;div&gt;reserve.csv when disbursed&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="760" x="4045" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="db_customers" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3edf8;strokeColor=#a7afb7;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;customers.csv&lt;/div&gt;&lt;div&gt;accounts.csv&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="760" x="4045" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="db_transactions" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3edf8;strokeColor=#a7afb7;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;transactions.csv&lt;/div&gt;" vertex="1">
+          <mxGeometry height="78" width="760" x="4045" y="1820" as="geometry" />
+        </mxCell>
+        <mxCell id="db_reserve_ops" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3edf8;strokeColor=#a7afb7;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;reserve.csv&lt;/div&gt;&lt;div&gt;operations.csv&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="760" x="4045" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="db_policy_rates" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3edf8;strokeColor=#a7afb7;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;policies.csv&lt;/div&gt;&lt;div&gt;exchange_rates.csv&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="760" x="4045" y="2180" as="geometry" />
+        </mxCell>
+        <mxCell id="db_notifications" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3edf8;strokeColor=#a7afb7;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;notifications.csv&lt;/div&gt;" vertex="1">
+          <mxGeometry height="78" width="760" x="4045" y="2360" as="geometry" />
+        </mxCell>
+        <mxCell id="db_logs" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3edf8;strokeColor=#a7afb7;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;audit_logs.csv&lt;/div&gt;&lt;div&gt;activity_logs.csv&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="760" x="4045" y="2510" as="geometry" />
+        </mxCell>
+        <mxCell id="db_reports" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3edf8;strokeColor=#a7afb7;strokeWidth=3;arcSize=8;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=8;" value="&lt;div&gt;Reports generated from&lt;/div&gt;&lt;div&gt;current CSV-backed records&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="760" x="4045" y="2690" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1" edge="1" parent="1" source="gov_start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="gov_login" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_2" edge="1" parent="1" source="gov_login" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="gov_auth" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_3" edge="1" parent="1" source="gov_auth" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="gov_valid" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_4" edge="1" parent="1" source="gov_valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d3ab88;strokeWidth=2;" target="gov_login" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="205" y="585" />
+              <mxPoint x="205" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_5" edge="1" parent="1" source="gov_valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="gov_dash" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_6" edge="1" parent="1" source="gov_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="gov_review" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_7" edge="1" parent="1" source="gov_review" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="gov_details" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_8" edge="1" parent="1" source="gov_details" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="gov_approve" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_9" edge="1" parent="1" source="gov_approve" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d3ab88;strokeWidth=2;" target="sys_approval_review" value="Approve">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="1140" />
+              <mxPoint x="2510" y="1140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_10" edge="1" parent="1" source="gov_approve" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d3ab88;strokeWidth=2;" target="sys_approval_review" value="Reject">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="1200" />
+              <mxPoint x="2510" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_11" edge="1" parent="1" source="gov_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d3ab88;strokeWidth=2;" target="gov_admins" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="737" />
+              <mxPoint x="720" y="1303" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_12" edge="1" parent="1" source="gov_admins" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d3ab88;strokeWidth=2;dashed=1;" target="sys_notify_audit" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="1303" />
+              <mxPoint x="710" y="2425" />
+              <mxPoint x="2510" y="2425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_13" edge="1" parent="1" source="gov_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d3ab88;strokeWidth=2;" target="gov_direct_policy" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="735" y="737" />
+              <mxPoint x="735" y="1423" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_14" edge="1" parent="1" source="gov_direct_policy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d3ab88;strokeWidth=2;" target="sys_reserve_policy" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="1423" />
+              <mxPoint x="720" y="2070" />
+              <mxPoint x="2510" y="2070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_15" edge="1" parent="1" source="gov_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d3ab88;strokeWidth=2;" target="gov_reports" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="737" />
+              <mxPoint x="750" y="1543" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_16" edge="1" parent="1" source="gov_reports" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d3ab88;strokeWidth=2;dashed=1;" target="sys_exchange_report" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="735" y="1543" />
+              <mxPoint x="735" y="2250" />
+              <mxPoint x="2510" y="2250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_17" edge="1" parent="1" source="gov_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d3ab88;strokeWidth=2;" target="gov_profile" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="765" y="737" />
+              <mxPoint x="765" y="1663" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_18" edge="1" parent="1" source="gov_profile" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d3ab88;strokeWidth=2;dashed=1;" target="sys_notify_audit" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="1663" />
+              <mxPoint x="750" y="2395" />
+              <mxPoint x="2510" y="2395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_19" edge="1" parent="1" source="gov_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d3ab88;strokeWidth=2;" target="gov_notifications" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="737" />
+              <mxPoint x="780" y="1783" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_20" edge="1" parent="1" source="gov_notifications" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d3ab88;strokeWidth=2;dashed=1;" target="sys_notify_audit" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="765" y="1783" />
+              <mxPoint x="765" y="2455" />
+              <mxPoint x="2510" y="2455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_21" edge="1" parent="1" source="gov_notifications" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="gov_logout" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_22" edge="1" parent="1" source="gov_logout" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d3ab88;strokeWidth=2;dashed=1;" target="sys_logout" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="1917" />
+              <mxPoint x="2520" y="1917" />
+              <mxPoint x="2520" y="2567" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_23" edge="1" parent="1" source="admin_start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="admin_login" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_24" edge="1" parent="1" source="admin_login" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="admin_auth" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_25" edge="1" parent="1" source="admin_auth" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="admin_valid" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_26" edge="1" parent="1" source="admin_valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7aa6c8;strokeWidth=2;" target="admin_login" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="585" />
+              <mxPoint x="940" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_27" edge="1" parent="1" source="admin_valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="admin_dash" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_28" edge="1" parent="1" source="admin_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="admin_bank_manage" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_29" edge="1" parent="1" source="admin_bank_manage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="admin_approval_request" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_30" edge="1" parent="1" source="admin_bank_manage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7aa6c8;strokeWidth=2;" target="sys_bank_registry" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1500" y="880" />
+              <mxPoint x="2505" y="880" />
+              <mxPoint x="2505" y="1350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_31" edge="1" parent="1" source="admin_approval_request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7aa6c8;strokeWidth=2;" target="sys_approval_create" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1505" y="1005" />
+              <mxPoint x="2510" y="1005" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_32" edge="1" parent="1" source="admin_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7aa6c8;strokeWidth=2;" target="admin_loan_review" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="737" />
+              <mxPoint x="1540" y="1153" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_33" edge="1" parent="1" source="admin_loan_review" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="admin_loan_decision" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_34" edge="1" parent="1" source="admin_loan_decision" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7aa6c8;strokeWidth=2;" target="sys_loan" value="Approve">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1500" y="1295" />
+              <mxPoint x="2510" y="1525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_35" edge="1" parent="1" source="admin_loan_decision" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7aa6c8;strokeWidth=2;" target="sys_loan" value="Reject">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1500" y="1350" />
+              <mxPoint x="2510" y="1570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_36" edge="1" parent="1" source="admin_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7aa6c8;strokeWidth=2;" target="admin_reserve_policy" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="737" />
+              <mxPoint x="1560" y="1465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_37" edge="1" parent="1" source="admin_reserve_policy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7aa6c8;strokeWidth=2;" target="sys_approval_create" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1555" y="1465" />
+              <mxPoint x="2500" y="1465" />
+              <mxPoint x="2500" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_38" edge="1" parent="1" source="admin_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7aa6c8;strokeWidth=2;" target="admin_reports" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1580" y="737" />
+              <mxPoint x="1580" y="1603" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_39" edge="1" parent="1" source="admin_reports" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7aa6c8;strokeWidth=2;dashed=1;" target="sys_exchange_report" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="1603" />
+              <mxPoint x="1560" y="2235" />
+              <mxPoint x="2510" y="2235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_40" edge="1" parent="1" source="admin_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7aa6c8;strokeWidth=2;" target="admin_notifications" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1590" y="737" />
+              <mxPoint x="1590" y="1723" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_41" edge="1" parent="1" source="admin_notifications" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7aa6c8;strokeWidth=2;dashed=1;" target="sys_notify_audit" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1570" y="1723" />
+              <mxPoint x="1570" y="2425" />
+              <mxPoint x="2510" y="2425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_42" edge="1" parent="1" source="admin_notifications" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="admin_cancel" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_43" edge="1" parent="1" source="admin_cancel" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7aa6c8;strokeWidth=2;dashed=1;" target="sys_approval_create" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1510" y="1843" />
+              <mxPoint x="2510" y="1843" />
+              <mxPoint x="2510" y="1015" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_44" edge="1" parent="1" source="admin_cancel" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="admin_logout" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_45" edge="1" parent="1" source="admin_logout" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7aa6c8;strokeWidth=2;dashed=1;" target="sys_logout" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1460" y="1977" />
+              <mxPoint x="2520" y="1977" />
+              <mxPoint x="2520" y="2585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_46" edge="1" parent="1" source="bank_start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="bank_login" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_47" edge="1" parent="1" source="bank_login" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="bank_auth" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_48" edge="1" parent="1" source="bank_auth" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="bank_valid" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_49" edge="1" parent="1" source="bank_valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9dbb92;strokeWidth=2;" target="bank_login" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1750" y="585" />
+              <mxPoint x="1750" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_50" edge="1" parent="1" source="bank_valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="bank_dash" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_51" edge="1" parent="1" source="bank_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="bank_profile" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_52" edge="1" parent="1" source="bank_profile" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9dbb92;strokeWidth=2;" target="sys_bank_registry" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2300" y="883" />
+              <mxPoint x="2520" y="883" />
+              <mxPoint x="2520" y="1335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_53" edge="1" parent="1" source="bank_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9dbb92;strokeWidth=2;" target="bank_customer" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2360" y="737" />
+              <mxPoint x="2360" y="1003" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_54" edge="1" parent="1" source="bank_customer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9dbb92;strokeWidth=2;" target="sys_customer_account" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2320" y="1003" />
+              <mxPoint x="2520" y="1690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_55" edge="1" parent="1" source="bank_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9dbb92;strokeWidth=2;" target="bank_account" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2375" y="737" />
+              <mxPoint x="2375" y="1123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_56" edge="1" parent="1" source="bank_account" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9dbb92;strokeWidth=2;" target="sys_customer_account" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2330" y="1123" />
+              <mxPoint x="2520" y="1725" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_57" edge="1" parent="1" source="bank_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9dbb92;strokeWidth=2;" target="bank_loan" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2390" y="737" />
+              <mxPoint x="2390" y="1273" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_58" edge="1" parent="1" source="bank_loan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9dbb92;strokeWidth=2;" target="sys_loan" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2320" y="1273" />
+              <mxPoint x="2520" y="1505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_59" edge="1" parent="1" source="bank_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9dbb92;strokeWidth=2;" target="bank_transfer" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2405" y="737" />
+              <mxPoint x="2405" y="1463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_60" edge="1" parent="1" source="bank_transfer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9dbb92;strokeWidth=2;" target="sys_transaction" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2320" y="1463" />
+              <mxPoint x="2520" y="1870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_61" edge="1" parent="1" source="bank_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9dbb92;strokeWidth=2;" target="bank_reports" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2415" y="737" />
+              <mxPoint x="2415" y="1603" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_62" edge="1" parent="1" source="bank_reports" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9dbb92;strokeWidth=2;dashed=1;" target="sys_exchange_report" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2340" y="1603" />
+              <mxPoint x="2520" y="2240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_63" edge="1" parent="1" source="bank_dash" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9dbb92;strokeWidth=2;" target="bank_notifications" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2425" y="737" />
+              <mxPoint x="2425" y="1723" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_64" edge="1" parent="1" source="bank_notifications" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9dbb92;strokeWidth=2;dashed=1;" target="sys_notify_audit" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2330" y="1723" />
+              <mxPoint x="2520" y="2425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_65" edge="1" parent="1" source="bank_notifications" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="bank_logout" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_66" edge="1" parent="1" source="bank_logout" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9dbb92;strokeWidth=2;dashed=1;" target="sys_logout" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2310" y="1977" />
+              <mxPoint x="2520" y="1977" />
+              <mxPoint x="2520" y="2603" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_67" edge="1" parent="1" source="sys_start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="sys_boot" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_68" edge="1" parent="1" source="sys_boot" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="sys_auth" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_69" edge="1" parent="1" source="sys_auth" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="sys_role_ok" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_70" edge="1" parent="1" source="sys_role_ok" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;" target="sys_dashboard" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_71" edge="1" parent="1" source="sys_role_ok" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d7b35e;strokeWidth=2;" target="sys_auth" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3370" y="665" />
+              <mxPoint x="3370" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_72" edge="1" parent="1" source="sys_approval_create" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d7b35e;strokeWidth=2;" target="sys_approval_review" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3820" y="1005" />
+              <mxPoint x="3820" y="1175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_73" edge="1" parent="1" source="sys_approval_review" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d7b35e;strokeWidth=2;" target="sys_bank_registry" value="Bank action">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3800" y="1240" />
+              <mxPoint x="3800" y="1350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_74" edge="1" parent="1" source="sys_approval_review" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d7b35e;strokeWidth=2;" target="sys_reserve_policy" value="Reserve / policy">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3830" y="1240" />
+              <mxPoint x="3830" y="2070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_75" edge="1" parent="1" source="sys_loan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d7b35e;strokeWidth=2;dashed=1;" target="sys_notify_audit" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3790" y="1525" />
+              <mxPoint x="3790" y="2425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_76" edge="1" parent="1" source="sys_transaction" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d7b35e;strokeWidth=2;dashed=1;" target="sys_notify_audit" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3805" y="1890" />
+              <mxPoint x="3805" y="2425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_77" edge="1" parent="1" source="sys_reserve_policy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d7b35e;strokeWidth=2;dashed=1;" target="sys_notify_audit" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3820" y="2070" />
+              <mxPoint x="3820" y="2425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_78" edge="1" parent="1" source="sys_exchange_report" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d7b35e;strokeWidth=2;dashed=1;" target="sys_notify_audit" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3835" y="2240" />
+              <mxPoint x="3835" y="2425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_79" edge="1" parent="1" source="gov_auth" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d3ab88;strokeWidth=2;dashed=1;" target="sys_auth" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="447" />
+              <mxPoint x="2510" y="447" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_80" edge="1" parent="1" source="admin_auth" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7aa6c8;strokeWidth=2;dashed=1;" target="sys_auth" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1460" y="447" />
+              <mxPoint x="2510" y="447" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_81" edge="1" parent="1" source="bank_auth" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9dbb92;strokeWidth=2;dashed=1;" target="sys_auth" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2290" y="447" />
+              <mxPoint x="2510" y="447" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_82" edge="1" parent="1" source="sys_dashboard" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d7b35e;strokeWidth=2;dashed=1;" target="gov_dash" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2510" y="830" />
+              <mxPoint x="670" y="830" />
+              <mxPoint x="670" y="737" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_83" edge="1" parent="1" source="sys_dashboard" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d7b35e;strokeWidth=2;dashed=1;" target="admin_dash" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2510" y="830" />
+              <mxPoint x="1510" y="830" />
+              <mxPoint x="1510" y="737" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_84" edge="1" parent="1" source="sys_dashboard" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#d7b35e;strokeWidth=2;dashed=1;" target="bank_dash" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2510" y="830" />
+              <mxPoint x="2310" y="830" />
+              <mxPoint x="2310" y="737" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_85" edge="1" parent="1" source="sys_logout" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;dashed=1;" target="gov_end" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3000" y="2567" />
+              <mxPoint x="840" y="2567" />
+              <mxPoint x="840" y="2012" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_86" edge="1" parent="1" source="sys_logout" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;dashed=1;" target="admin_end" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3000" y="2585" />
+              <mxPoint x="1590" y="2585" />
+              <mxPoint x="1590" y="2072" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_87" edge="1" parent="1" source="sys_logout" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#4b5563;strokeWidth=2;dashed=1;" target="bank_end" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3000" y="2603" />
+              <mxPoint x="2405" y="2603" />
+              <mxPoint x="2405" y="2072" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_88" edge="1" parent="1" source="sys_boot" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9aa4bd;strokeWidth=2;dashed=1;" target="db_credentials" value="load">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3830" y="340" />
+              <mxPoint x="4010" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_89" edge="1" parent="1" source="sys_auth" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9aa4bd;strokeWidth=2;dashed=1;" target="db_credentials" value="read">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3830" y="475" />
+              <mxPoint x="4010" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_90" edge="1" parent="1" source="sys_auth" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9aa4bd;strokeWidth=2;dashed=1;" target="db_login_logs" value="write">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3830" y="505" />
+              <mxPoint x="4010" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_91" edge="1" parent="1" source="sys_approval_create" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9aa4bd;strokeWidth=2;dashed=1;" target="db_approval" value="save">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3830" y="980" />
+              <mxPoint x="4010" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_92" edge="1" parent="1" source="sys_approval_review" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9aa4bd;strokeWidth=2;dashed=1;" target="db_approval" value="update">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3830" y="1135" />
+              <mxPoint x="4010" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_93" edge="1" parent="1" source="sys_bank_registry" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9aa4bd;strokeWidth=2;dashed=1;" target="db_banks" value="save">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3830" y="1350" />
+              <mxPoint x="4010" y="1160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_94" edge="1" parent="1" source="sys_loan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9aa4bd;strokeWidth=2;dashed=1;" target="db_loans" value="save">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3830" y="1525" />
+              <mxPoint x="4010" y="1500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_95" edge="1" parent="1" source="sys_customer_account" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9aa4bd;strokeWidth=2;dashed=1;" target="db_customers" value="save">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3830" y="1705" />
+              <mxPoint x="4010" y="1690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_96" edge="1" parent="1" source="sys_transaction" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9aa4bd;strokeWidth=2;dashed=1;" target="db_transactions" value="save">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3830" y="1885" />
+              <mxPoint x="4010" y="1860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_97" edge="1" parent="1" source="sys_reserve_policy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9aa4bd;strokeWidth=2;dashed=1;" target="db_reserve_ops" value="save">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3830" y="2070" />
+              <mxPoint x="4010" y="2050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_98" edge="1" parent="1" source="sys_reserve_policy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9aa4bd;strokeWidth=2;dashed=1;" target="db_policy_rates" value="policy save">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3830" y="2110" />
+              <mxPoint x="4010" y="2220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_99" edge="1" parent="1" source="sys_exchange_report" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9aa4bd;strokeWidth=2;dashed=1;" target="db_policy_rates" value="rates">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3830" y="2240" />
+              <mxPoint x="4010" y="2250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_100" edge="1" parent="1" source="sys_exchange_report" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9aa4bd;strokeWidth=2;dashed=1;" target="db_reports" value="read">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3830" y="2290" />
+              <mxPoint x="4010" y="2740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_101" edge="1" parent="1" source="sys_notify_audit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9aa4bd;strokeWidth=2;dashed=1;" target="db_notifications" value="save">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3830" y="2398" />
+              <mxPoint x="4010" y="2398" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_102" edge="1" parent="1" source="sys_notify_audit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9aa4bd;strokeWidth=2;dashed=1;" target="db_logs" value="write">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3830" y="2445" />
+              <mxPoint x="4010" y="2560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,289 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram id="central-banking-v9-use-case-clean" name="Corrected Use Case Diagram">
+    <mxGraphModel dx="2213" dy="1669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4300" pageHeight="2920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="system_boundary" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f9fc;strokeColor=#9dbbd4;strokeWidth=3;arcSize=2;connectable=0;" value="" vertex="1">
+          <mxGeometry height="2480" width="3600" x="520" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="system_boundary_title" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef6fd;strokeColor=#9dbbd4;strokeWidth=2;fontFamily=Segoe UI;fontSize=22;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;connectable=0;" value="Central Banking System" vertex="1">
+          <mxGeometry height="70" width="3600" x="520" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_public" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#9aa4bd;strokeWidth=3;fontFamily=Segoe UI;fontSize=18;fontColor=#17202a;align=center;" value="Public Visitor" vertex="1">
+          <mxGeometry height="220" width="130" x="115" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_governor" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=18;fontColor=#17202a;align=center;" value="Central Bank Governor" vertex="1">
+          <mxGeometry height="220" width="130" x="105" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_admin" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#9dbb92;strokeWidth=3;fontFamily=Segoe UI;fontSize=18;fontColor=#17202a;align=center;" value="System Administrator" vertex="1">
+          <mxGeometry height="220" width="130" x="105" y="1305" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_bank" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=18;fontColor=#17202a;align=center;" value="Commercial Bank Officer" vertex="1">
+          <mxGeometry height="220" width="130" x="105" y="1950" as="geometry" />
+        </mxCell>
+        <mxCell id="section_shared" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f6f7f8;strokeColor=#d6dce1;strokeWidth=2;arcSize=4;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=left;verticalAlign=middle;spacingLeft=14;connectable=0;" value="Shared access and public services" vertex="1">
+          <mxGeometry height="38" width="3340" x="650" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="section_governor" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e8;strokeColor=#d3ab88;strokeWidth=2;arcSize=4;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=left;verticalAlign=middle;spacingLeft=14;connectable=0;" value="Governor use cases" vertex="1">
+          <mxGeometry height="38" width="3340" x="650" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="section_admin" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#edf7ee;strokeColor=#9dbb92;strokeWidth=2;arcSize=4;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=left;verticalAlign=middle;spacingLeft=14;connectable=0;" value="System Administrator use cases" vertex="1">
+          <mxGeometry height="38" width="3340" x="650" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="section_bank" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=2;arcSize=4;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=left;verticalAlign=middle;spacingLeft=14;connectable=0;" value="Commercial Bank Officer use cases" vertex="1">
+          <mxGeometry height="38" width="3340" x="650" y="1740" as="geometry" />
+        </mxCell>
+        <mxCell id="section_internal" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#a7afb7;strokeWidth=2;arcSize=4;fontFamily=Segoe UI;fontSize=15;fontStyle=1;fontColor=#17202a;align=left;verticalAlign=middle;spacingLeft=14;connectable=0;" value="Included system behaviours" vertex="1">
+          <mxGeometry height="38" width="3340" x="650" y="2350" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_auth" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#eef6fd;strokeColor=#7aa6c8;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Authenticate User" vertex="1">
+          <mxGeometry height="105" width="430" x="720" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_logout" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#eef6fd;strokeColor=#7aa6c8;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Logout" vertex="1">
+          <mxGeometry height="105" width="430" x="720" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_public_pages" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f6f7f8;strokeColor=#9aa4bd;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="View Public Information" vertex="1">
+          <mxGeometry height="105" width="520" x="1320" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_view_rates" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f6f7f8;strokeColor=#9aa4bd;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="View / Fetch Exchange Rates" vertex="1">
+          <mxGeometry height="105" width="560" x="1980" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_gov_dashboard" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff3e8;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="View Governor Dashboard" vertex="1">
+          <mxGeometry height="105" width="430" x="720" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_gov_review_requests" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff3e8;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Review Approval Requests" vertex="1">
+          <mxGeometry height="105" width="520" x="1320" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_gov_execute" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff3e8;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Execute Approved Action" vertex="1">
+          <mxGeometry height="105" width="520" x="1980" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_gov_admins" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff3e8;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Manage Administrators" vertex="1">
+          <mxGeometry height="105" width="520" x="2640" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_gov_policy" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff3e8;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Add Monetary Policy" vertex="1">
+          <mxGeometry height="105" width="430" x="720" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_gov_reserve" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff3e8;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Update Foreign Exchange Reserve" vertex="1">
+          <mxGeometry height="105" width="520" x="1320" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_gov_reports" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff3e8;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="View National Reports" vertex="1">
+          <mxGeometry height="105" width="520" x="1980" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_gov_logs" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff3e8;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="View Audit, Login and Activity Logs" vertex="1">
+          <mxGeometry height="105" width="520" x="2640" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_gov_profile" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff3e8;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Update Governor Profile / Password" vertex="1">
+          <mxGeometry height="105" width="520" x="1320" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_gov_notifications" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff3e8;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="View Governor Notifications" vertex="1">
+          <mxGeometry height="105" width="520" x="1980" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_admin_dashboard" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#edf7ee;strokeColor=#9dbb92;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="View Admin Dashboard" vertex="1">
+          <mxGeometry height="105" width="430" x="720" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_admin_bank_register" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#edf7ee;strokeColor=#9dbb92;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Register Pending Commercial Bank" vertex="1">
+          <mxGeometry height="105" width="520" x="1320" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_admin_bank_records" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#edf7ee;strokeColor=#9dbb92;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Manage Commercial Bank Records" vertex="1">
+          <mxGeometry height="105" width="520" x="1980" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_admin_loan_decide" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#edf7ee;strokeColor=#9dbb92;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Approve / Reject Central Bank Loans" vertex="1">
+          <mxGeometry height="105" width="520" x="2640" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_admin_requests" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#edf7ee;strokeColor=#9dbb92;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Submit / Cancel Approval Requests" vertex="1">
+          <mxGeometry height="105" width="430" x="720" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_admin_reserve_policy" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#edf7ee;strokeColor=#9dbb92;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Request Reserve, Policy or Money Supply Change" vertex="1">
+          <mxGeometry height="105" width="520" x="1320" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_admin_reports" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#edf7ee;strokeColor=#9dbb92;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Generate Reports and Analytics" vertex="1">
+          <mxGeometry height="105" width="520" x="1980" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_admin_notifications" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#edf7ee;strokeColor=#9dbb92;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="View Admin Notifications" vertex="1">
+          <mxGeometry height="105" width="520" x="2640" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_admin_transactions" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#edf7ee;strokeColor=#9dbb92;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Monitor Transactions and Fraud Alerts" vertex="1">
+          <mxGeometry height="105" width="520" x="1320" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_bank_dashboard" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="View Bank Dashboard" vertex="1">
+          <mxGeometry height="105" width="430" x="720" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_bank_profile" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Update Bank Profile" vertex="1">
+          <mxGeometry height="105" width="520" x="1320" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_bank_customers" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Manage Customer Records" vertex="1">
+          <mxGeometry height="105" width="520" x="1980" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_bank_accounts" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Manage Accounts, Deposits and Withdrawals" vertex="1">
+          <mxGeometry height="105" width="520" x="2640" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_bank_loan_apply" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Submit Central Bank Loan Application" vertex="1">
+          <mxGeometry height="105" width="430" x="720" y="1970" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_bank_transfer" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Transfer Funds / Payments" vertex="1">
+          <mxGeometry height="105" width="520" x="1320" y="1970" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_bank_transactions" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="View Transactions and Bank Reports" vertex="1">
+          <mxGeometry height="105" width="520" x="1980" y="1970" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_bank_notifications" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff8ef;strokeColor=#d3ab88;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="View Bank Notifications" vertex="1">
+          <mxGeometry height="105" width="520" x="2640" y="1970" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_risk" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#a7afb7;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Evaluate Loan Risk" vertex="1">
+          <mxGeometry height="105" width="430" x="720" y="2400" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_fraud" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#a7afb7;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Detect Fraud on Transfers" vertex="1">
+          <mxGeometry height="105" width="520" x="1320" y="2400" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_notify" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#a7afb7;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Generate Notifications" vertex="1">
+          <mxGeometry height="105" width="520" x="1980" y="2400" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_persist" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#a7afb7;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Save / Load CSV Records" vertex="1">
+          <mxGeometry height="105" width="520" x="2640" y="2400" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_report_service" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#a7afb7;strokeWidth=3;fontFamily=Segoe UI;fontSize=17;fontStyle=1;fontColor=#17202a;align=center;verticalAlign=middle;spacing=10;" value="Generate Report Text" vertex="1">
+          <mxGeometry height="105" width="520" x="3300" y="2400" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1_public_public_pages" edge="1" parent="1" source="actor_public" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9aa4bd;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.35;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_public_pages" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_2_public_rates" edge="1" parent="1" source="actor_public" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9aa4bd;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_view_rates" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_3_gov_auth" edge="1" parent="1" source="actor_governor" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.03;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_auth" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_4_gov_logout" edge="1" parent="1" source="actor_governor" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_logout" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_5_gov_dashboard" edge="1" parent="1" source="actor_governor" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_gov_dashboard" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_6_gov_review" edge="1" parent="1" source="actor_governor" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.32;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_gov_review_requests" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_7_gov_admins" edge="1" parent="1" source="actor_governor" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.44;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_gov_admins" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_8_gov_policy" edge="1" parent="1" source="actor_governor" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.56;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_gov_policy" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_9_gov_reserve" edge="1" parent="1" source="actor_governor" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.68;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_gov_reserve" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_10_gov_reports" edge="1" parent="1" source="actor_governor" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_gov_reports" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_11_gov_logs" edge="1" parent="1" source="actor_governor" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_gov_logs" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_12_gov_profile" edge="1" parent="1" source="actor_governor" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_gov_profile" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_13_admin_auth" edge="1" parent="1" source="actor_admin" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9dbb92;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_auth" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_14_admin_logout" edge="1" parent="1" source="actor_admin" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9dbb92;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.08;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_logout" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_15_admin_dashboard" edge="1" parent="1" source="actor_admin" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9dbb92;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_admin_dashboard" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_16_admin_register" edge="1" parent="1" source="actor_admin" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9dbb92;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_admin_bank_register" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_17_admin_records" edge="1" parent="1" source="actor_admin" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9dbb92;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.42;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_admin_bank_records" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_18_admin_loans" edge="1" parent="1" source="actor_admin" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9dbb92;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.54;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_admin_loan_decide" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_19_admin_requests" edge="1" parent="1" source="actor_admin" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9dbb92;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.66;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_admin_requests" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_20_admin_reserve_policy" edge="1" parent="1" source="actor_admin" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9dbb92;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.78;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_admin_reserve_policy" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_21_admin_reports" edge="1" parent="1" source="actor_admin" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9dbb92;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.88;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_admin_reports" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_22_admin_transactions" edge="1" parent="1" source="actor_admin" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9dbb92;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_admin_transactions" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_23_bank_auth" edge="1" parent="1" source="actor_bank" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_auth" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_24_bank_logout" edge="1" parent="1" source="actor_bank" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.08;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_logout" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_25_bank_dashboard" edge="1" parent="1" source="actor_bank" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_bank_dashboard" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_26_bank_profile" edge="1" parent="1" source="actor_bank" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.32;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_bank_profile" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_27_bank_customers" edge="1" parent="1" source="actor_bank" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.44;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_bank_customers" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_28_bank_accounts" edge="1" parent="1" source="actor_bank" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.56;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_bank_accounts" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_29_bank_loan" edge="1" parent="1" source="actor_bank" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.68;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_bank_loan_apply" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_30_bank_transfer" edge="1" parent="1" source="actor_bank" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_bank_transfer" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_31_bank_transactions" edge="1" parent="1" source="actor_bank" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_bank_transactions" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_32_bank_notifications" edge="1" parent="1" source="actor_bank" style="edgeStyle=none;html=1;rounded=0;strokeColor=#d3ab88;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_bank_notifications" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_33_loan_apply_risk" edge="1" parent="1" source="uc_bank_loan_apply" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9aa4bd;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0.3;entryY=0;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_risk" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_34_loan_decide_risk" edge="1" parent="1" source="uc_admin_loan_decide" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9aa4bd;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;exitX=0.45;exitY=1;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_risk" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_35_transfer_fraud" edge="1" parent="1" source="uc_bank_transfer" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9aa4bd;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_fraud" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_36_fraud_notify" edge="1" parent="1" source="uc_fraud" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9aa4bd;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;exitX=1;exitY=0.45;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_notify" value="&lt;&lt;extend&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_37_request_notify" edge="1" parent="1" source="uc_admin_requests" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9aa4bd;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_notify" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_38_review_execute" edge="1" parent="1" source="uc_gov_review_requests" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9aa4bd;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_gov_execute" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_39_review_notify" edge="1" parent="1" source="uc_gov_review_requests" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9aa4bd;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;exitX=0.7;exitY=1;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_notify" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_40_reports_report_service_admin" edge="1" parent="1" source="uc_admin_reports" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9aa4bd;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0.35;entryY=0;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_report_service" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_41_reports_report_service_gov" edge="1" parent="1" source="uc_gov_reports" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9aa4bd;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;exitX=0.55;exitY=1;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0.55;entryY=0;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_report_service" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_42_reports_report_service_bank" edge="1" parent="1" source="uc_bank_transactions" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9aa4bd;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;exitX=0.6;exitY=1;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_report_service" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_43_rates_persist" edge="1" parent="1" source="uc_view_rates" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9aa4bd;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;exitX=0.65;exitY=1;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0.6;entryY=0;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_persist" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_44_records_persist_admin" edge="1" parent="1" source="uc_admin_bank_records" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9aa4bd;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;exitX=0.55;exitY=1;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_persist" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_45_records_persist_bank" edge="1" parent="1" source="uc_bank_accounts" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9aa4bd;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;exitX=0.55;exitY=1;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0.45;entryY=0;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_persist" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_46_notifications_persist" edge="1" parent="1" source="uc_notify" style="edgeStyle=none;html=1;rounded=0;strokeColor=#9aa4bd;strokeWidth=2;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=1;" target="uc_persist" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,1269 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram id="central-banking-system-v9" name="Central Banking System V9 UML">
+    <mxGraphModel dx="3984" dy="3004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="12000" pageHeight="6700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pkg_ApplicationWebLayer" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef6fd;strokeColor=#c8dceb;strokeWidth=4;arcSize=3;container=1;collapsible=0;connectable=0;" value="" vertex="1">
+          <mxGeometry height="980" width="11760" x="150" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg_ApplicationWebLayer_title" parent="pkg_ApplicationWebLayer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7aa6c8;strokeColor=#7aa6c8;strokeWidth=1;fontColor=#ffffff;fontFamily=Segoe UI;fontSize=20;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=24;arcSize=6;connectable=0;" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;Application / Web Layer&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="700" x="60" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg_CoreSystemServices" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#edf7ee;strokeColor=#c7ddc9;strokeWidth=4;arcSize=3;container=1;collapsible=0;connectable=0;" value="" vertex="1">
+          <mxGeometry height="2500" width="3200" x="150" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg_CoreSystemServices_title" parent="pkg_CoreSystemServices" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9dbb92;strokeColor=#9dbb92;strokeWidth=1;fontColor=#ffffff;fontFamily=Segoe UI;fontSize=20;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=24;arcSize=6;connectable=0;" value="&lt;font style=&quot;font-size: 46px;&quot;&gt;Core System / Services&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="740" x="90" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg_DomainModel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e8;strokeColor=#e7cfbb;strokeWidth=4;arcSize=3;container=1;collapsible=0;connectable=0;" value="" vertex="1">
+          <mxGeometry height="3320" width="8380" x="3500" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg_DomainModel_title" parent="pkg_DomainModel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d3ab88;strokeColor=#d3ab88;strokeWidth=1;fontColor=#ffffff;fontFamily=Segoe UI;fontSize=20;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=24;arcSize=6;connectable=0;" value="&lt;font style=&quot;font-size: 46px;&quot;&gt;Domain Model&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="760" x="80" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg_Enumerations" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f6f7f8;strokeColor=#d6dce1;strokeWidth=4;arcSize=3;container=1;collapsible=0;connectable=0;" value="" vertex="1">
+          <mxGeometry height="900" width="11760" x="120" y="5000" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg_Enumerations_title" parent="pkg_Enumerations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a7afb7;strokeColor=#a7afb7;strokeWidth=1;fontColor=#ffffff;fontFamily=Segoe UI;fontSize=20;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=24;arcSize=6;connectable=0;" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;Enumerations&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="700" x="26" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg_UtilitiesTest" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#d5d9e3;strokeWidth=4;arcSize=3;container=1;collapsible=0;connectable=0;" value="" vertex="1">
+          <mxGeometry height="500" width="11760" x="120" y="6100" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg_UtilitiesTest_title" parent="pkg_UtilitiesTest" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9aa4bd;strokeColor=#9aa4bd;strokeWidth=1;fontColor=#ffffff;fontFamily=Segoe UI;fontSize=20;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=24;arcSize=6;connectable=0;" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;Utilities / Test&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="700" x="26" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1" edge="1" parent="1" source="class_CentralBankingSystemApp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7b9bb3;strokeWidth=3;" target="class_AppRouter" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="540" as="sourcePoint" />
+            <mxPoint x="1550" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_2" edge="1" parent="1" source="class_CentralBankingSystemApp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7b9bb3;strokeWidth=3;" target="class_CentralBankSystem" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="1210" />
+              <mxPoint x="1540" y="1210" />
+            </Array>
+            <mxPoint x="820" y="690" as="sourcePoint" />
+            <mxPoint x="1540" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_3" edge="1" parent="1" source="class_AppRouter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7b9bb3;strokeWidth=3;" target="class_CentralBankSystem" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2250" y="1180" />
+              <mxPoint x="1660" y="1180" />
+            </Array>
+            <mxPoint x="2250" y="740" as="sourcePoint" />
+            <mxPoint x="1660" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_4" edge="1" parent="1" source="class_AppRouter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7b9bb3;strokeWidth=3;" target="class_PageRenderer" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2950" y="520" as="sourcePoint" />
+            <mxPoint x="3200" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_5" edge="1" parent="1" source="class_AppRouter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7b9bb3;strokeWidth=3;" target="class_LoginManager" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4550" y="425" />
+              <mxPoint x="4550" y="520" />
+            </Array>
+            <mxPoint x="2950" y="425" as="sourcePoint" />
+            <mxPoint x="4700" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_6" edge="1" parent="1" source="class_AppRouter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7b9bb3;strokeWidth=3;" target="class_SessionManager" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5950" y="640" />
+              <mxPoint x="5950" y="520" />
+            </Array>
+            <mxPoint x="2950" y="640" as="sourcePoint" />
+            <mxPoint x="6100" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_7" edge="1" parent="1" source="class_AppRouter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeColor=#7598b2;strokeWidth=4;" target="class_HttpHandler" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="8550" y="360" />
+            </Array>
+            <mxPoint x="2950" y="360" as="sourcePoint" />
+            <mxPoint x="8550" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_8" edge="1" parent="1" source="class_LoginManager" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#7b9bb3;strokeWidth=2;" target="class_LoginResult" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="9480" y="520" />
+            </Array>
+            <mxPoint x="5780" y="520" as="sourcePoint" />
+            <mxPoint x="9600" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_9" edge="1" parent="1" source="class_SessionManager" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7b9bb3;strokeWidth=3;" target="class_UserSession" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7060" y="520" as="sourcePoint" />
+            <mxPoint x="7300" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_10" edge="1" parent="1" source="class_UserSession" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_UserRole" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7780" y="4930" />
+              <mxPoint x="9860" y="4930" />
+            </Array>
+            <mxPoint x="7780" y="690" as="sourcePoint" />
+            <mxPoint x="9860" y="5550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_11" edge="1" parent="1" source="class_LoginResult" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_UserRole" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10050" y="690" as="sourcePoint" />
+            <mxPoint x="10050" y="5550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_12" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#c49a61;strokeWidth=3;" target="class_FileManager" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="2480" as="sourcePoint" />
+            <mxPoint x="820" y="2730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_13" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#c49a61;strokeWidth=3;" target="class_RiskAssessment" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1540" y="2480" as="sourcePoint" />
+            <mxPoint x="1540" y="2730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_14" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#c49a61;strokeWidth=3;" target="class_FraudDetector" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2200" y="2730" />
+            </Array>
+            <mxPoint x="2200" y="2480" as="sourcePoint" />
+            <mxPoint x="2310" y="2730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_15" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#c49a61;strokeWidth=3;" target="class_ReportService" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="2480" as="sourcePoint" />
+            <mxPoint x="1250" y="3250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_16" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#c49a61;strokeWidth=3;" target="class_ExchangeRateService" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2020" y="2480" as="sourcePoint" />
+            <mxPoint x="2020" y="3250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_17" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#c49a61;strokeWidth=3;" target="class_CentralBank" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3500" y="1800" />
+              <mxPoint x="3500" y="2230" />
+            </Array>
+            <mxPoint x="2650" y="1800" as="sourcePoint" />
+            <mxPoint x="3850" y="2230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_18" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#c49a61;strokeWidth=3;" target="class_CommercialBank" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3500" y="1920" />
+              <mxPoint x="3500" y="1900" />
+              <mxPoint x="5350" y="1900" />
+            </Array>
+            <mxPoint x="2650" y="1920" as="sourcePoint" />
+            <mxPoint x="5350" y="2180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_19" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#c49a61;strokeWidth=2;" target="class_Customer" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3460" y="1860" />
+              <mxPoint x="3460" y="1660" />
+            </Array>
+            <mxPoint x="2650" y="1860" as="sourcePoint" />
+            <mxPoint x="7200" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_20" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#c49a61;strokeWidth=2;" target="class_Account" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3380" y="1980" />
+              <mxPoint x="3380" y="1660" />
+            </Array>
+            <mxPoint x="2650" y="1980" as="sourcePoint" />
+            <mxPoint x="8500" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_21" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#c49a61;strokeWidth=2;" target="class_Loan" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3440" y="2040" />
+              <mxPoint x="3440" y="2140" />
+            </Array>
+            <mxPoint x="2650" y="2040" as="sourcePoint" />
+            <mxPoint x="7200" y="2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_22" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#c49a61;strokeWidth=2;" target="class_Transaction" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3420" y="2100" />
+              <mxPoint x="3420" y="2290" />
+            </Array>
+            <mxPoint x="2650" y="2100" as="sourcePoint" />
+            <mxPoint x="8500" y="2290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_23" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#c49a61;strokeWidth=2;" target="class_LiquidityOperation" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3380" y="2320" />
+              <mxPoint x="3380" y="2860" />
+            </Array>
+            <mxPoint x="2650" y="2320" as="sourcePoint" />
+            <mxPoint x="7200" y="2860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_24" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#c49a61;strokeWidth=3;" target="class_Administrator" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3430" y="2160" />
+              <mxPoint x="3430" y="4300" />
+            </Array>
+            <mxPoint x="2650" y="2160" as="sourcePoint" />
+            <mxPoint x="7200" y="4300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_25" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#c49a61;strokeWidth=3;" target="class_Governor" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3420" y="2260" />
+              <mxPoint x="3420" y="4230" />
+            </Array>
+            <mxPoint x="2650" y="2260" as="sourcePoint" />
+            <mxPoint x="8500" y="4230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_26" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#c49a61;strokeWidth=3;" target="class_ApprovalRequest" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3400" y="2380" />
+              <mxPoint x="3400" y="4040" />
+            </Array>
+            <mxPoint x="2650" y="2380" as="sourcePoint" />
+            <mxPoint x="9800" y="4040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_27" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#c49a61;strokeWidth=3;" target="class_Notification" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3380" y="2440" />
+              <mxPoint x="3380" y="3720" />
+            </Array>
+            <mxPoint x="2650" y="2440" as="sourcePoint" />
+            <mxPoint x="3850" y="3720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_28" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#c49a61;strokeWidth=3;" target="class_Reserve" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3360" y="2460" />
+              <mxPoint x="3360" y="3420" />
+            </Array>
+            <mxPoint x="2650" y="2460" as="sourcePoint" />
+            <mxPoint x="7200" y="3420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_29" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#c49a61;strokeWidth=3;" target="class_MonetaryPolicy" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3340" y="2475" />
+              <mxPoint x="3340" y="2860" />
+            </Array>
+            <mxPoint x="2650" y="2475" as="sourcePoint" />
+            <mxPoint x="8500" y="2860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_30" edge="1" parent="1" source="class_RiskAssessment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#c49a61;strokeWidth=2;" target="class_CommercialBank" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1780" y="2500" />
+              <mxPoint x="5350" y="2500" />
+            </Array>
+            <mxPoint x="1780" y="2730" as="sourcePoint" />
+            <mxPoint x="5350" y="2250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_31" edge="1" parent="1" source="class_RiskAssessment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#c49a61;strokeWidth=3;" target="class_RiskResult" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1780" y="3690" />
+            </Array>
+            <mxPoint x="1780" y="3030" as="sourcePoint" />
+            <mxPoint x="5350" y="3690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_32" edge="1" parent="1" source="class_FraudDetector" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#c49a61;strokeWidth=2;" target="class_Transaction" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2600" y="2160" />
+            </Array>
+            <mxPoint x="2600" y="2730" as="sourcePoint" />
+            <mxPoint x="8500" y="2160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_33" edge="1" parent="1" source="class_FraudDetector" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#c49a61;strokeWidth=2;" target="class_CommercialBank" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2700" y="2280" />
+            </Array>
+            <mxPoint x="2700" y="2730" as="sourcePoint" />
+            <mxPoint x="5350" y="2280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_34" edge="1" parent="1" source="class_ReportService" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#c49a61;strokeWidth=2;" target="class_Report" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5250" y="3405" />
+              <mxPoint x="5250" y="2910" />
+            </Array>
+            <mxPoint x="1800" y="3405" as="sourcePoint" />
+            <mxPoint x="5350" y="2910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_35" edge="1" parent="1" source="class_ExchangeRateService" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#c49a61;strokeWidth=3;" target="class_ExchangeRate" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2420" y="3610" />
+            </Array>
+            <mxPoint x="2420" y="3250" as="sourcePoint" />
+            <mxPoint x="8500" y="3610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_36" edge="1" parent="1" source="class_ExchangeRateService" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#c49a61;strokeWidth=3;" target="class_FileManager" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1250" y="3405" />
+            </Array>
+            <mxPoint x="1920" y="3405" as="sourcePoint" />
+            <mxPoint x="1250" y="2880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_37" edge="1" parent="1" source="class_CentralBank" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeColor=#7598b2;strokeWidth=4;" target="class_FinancialInstitution" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4390" y="2050" as="sourcePoint" />
+            <mxPoint x="4390" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_38" edge="1" parent="1" source="class_CommercialBank" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeColor=#7598b2;strokeWidth=4;" target="class_FinancialInstitution" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="6100" y="1850" />
+              <mxPoint x="4675" y="1850" />
+            </Array>
+            <mxPoint x="6100" y="1970" as="sourcePoint" />
+            <mxPoint x="4675" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_39" edge="1" parent="1" source="class_TextReport" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeColor=#7598b2;strokeWidth=4;" target="class_Report" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5890" y="3160" as="sourcePoint" />
+            <mxPoint x="5890" y="3040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_40" edge="1" parent="1" source="class_CentralBank" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#a98768;strokeWidth=3;" target="class_CommercialBank" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4930" y="2230" as="sourcePoint" />
+            <mxPoint x="5350" y="2230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_41" edge="1" parent="1" source="class_CentralBank" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#a98768;strokeWidth=3;" target="class_LiquidityOperation" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7100" y="2260" />
+              <mxPoint x="7100" y="2680" />
+            </Array>
+            <mxPoint x="4930" y="2260" as="sourcePoint" />
+            <mxPoint x="7200" y="2860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_42" edge="1" parent="1" source="class_CentralBank" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#a98768;strokeWidth=3;" target="class_TextReport" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5270" y="2340" />
+              <mxPoint x="5270" y="3260" />
+            </Array>
+            <mxPoint x="4930" y="2340" as="sourcePoint" />
+            <mxPoint x="5350" y="3260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_43" edge="1" parent="1" source="class_CommercialBank" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#a98768;strokeWidth=2;" target="class_Loan" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6850" y="2110" as="sourcePoint" />
+            <mxPoint x="7200" y="2110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_44" edge="1" parent="1" source="class_CommercialBank" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#a98768;strokeWidth=2;" target="class_Account" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="8350" y="2210" />
+              <mxPoint x="8350" y="1670" />
+            </Array>
+            <mxPoint x="6850" y="2210" as="sourcePoint" />
+            <mxPoint x="8500" y="1670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_45" edge="1" parent="1" source="class_Customer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#a98768;strokeWidth=2;" target="class_Account" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8200" y="1660" as="sourcePoint" />
+            <mxPoint x="8500" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_46" edge="1" parent="1" source="class_CommercialBank" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#a98768;strokeWidth=2;" target="class_Transaction" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6850" y="2300" as="sourcePoint" />
+            <mxPoint x="8500" y="2300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_47" edge="1" parent="1" source="class_CommercialBank" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#a98768;strokeWidth=2;" target="class_LiquidityOperation" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7000" y="2390" />
+              <mxPoint x="7000" y="2680" />
+            </Array>
+            <mxPoint x="6850" y="2390" as="sourcePoint" />
+            <mxPoint x="7200" y="2860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_48" edge="1" parent="1" source="class_Regulator" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#a98768;strokeWidth=3;" target="class_Report" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4930" y="2800" as="sourcePoint" />
+            <mxPoint x="5350" y="2800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_49" edge="1" parent="1" source="class_Regulator" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#a98768;strokeWidth=3;" target="class_Report" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4930" y="2870" as="sourcePoint" />
+            <mxPoint x="5350" y="2870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_50" edge="1" parent="1" source="class_Administrator" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#a98768;strokeWidth=2;" target="class_ApprovalRequest" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8200" y="4250" as="sourcePoint" />
+            <mxPoint x="9800" y="4250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_51" edge="1" parent="1" source="class_Governor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#a98768;strokeWidth=2;" target="class_ApprovalRequest" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="9400" y="4230" as="sourcePoint" />
+            <mxPoint x="9800" y="4230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_52" edge="1" parent="1" source="class_CommercialBank" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_BankStatus" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5650" y="4980" />
+              <mxPoint x="890" y="4980" />
+            </Array>
+            <mxPoint x="5650" y="2530" as="sourcePoint" />
+            <mxPoint x="890" y="5150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_53" edge="1" parent="1" source="class_CommercialBank" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_BankType" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5850" y="4940" />
+              <mxPoint x="1750" y="4940" />
+            </Array>
+            <mxPoint x="5850" y="2530" as="sourcePoint" />
+            <mxPoint x="1750" y="5150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_54" edge="1" parent="1" source="class_CommercialBank" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_RiskLevel" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="6050" y="4905" />
+              <mxPoint x="2550" y="4905" />
+            </Array>
+            <mxPoint x="6050" y="2530" as="sourcePoint" />
+            <mxPoint x="2550" y="5150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_55" edge="1" parent="1" source="class_Loan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_LoanType" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7500" y="4910" />
+              <mxPoint x="3350" y="4910" />
+            </Array>
+            <mxPoint x="7500" y="2470" as="sourcePoint" />
+            <mxPoint x="3350" y="5150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_56" edge="1" parent="1" source="class_Loan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_LoanStatus" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7700" y="4935" />
+              <mxPoint x="4200" y="4935" />
+            </Array>
+            <mxPoint x="7700" y="2470" as="sourcePoint" />
+            <mxPoint x="4200" y="5150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_57" edge="1" parent="1" source="class_Customer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_CustomerStatus" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7700" y="4960" />
+              <mxPoint x="5070" y="4960" />
+            </Array>
+            <mxPoint x="7700" y="1820" as="sourcePoint" />
+            <mxPoint x="5070" y="5150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_58" edge="1" parent="1" source="class_Transaction" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_TransactionStatus" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="9000" y="4940" />
+              <mxPoint x="5990" y="4940" />
+            </Array>
+            <mxPoint x="9000" y="2410" as="sourcePoint" />
+            <mxPoint x="5990" y="5150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_59" edge="1" parent="1" source="class_LiquidityOperation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_OperationType" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7500" y="5025" />
+              <mxPoint x="6950" y="5025" />
+            </Array>
+            <mxPoint x="7500" y="3040" as="sourcePoint" />
+            <mxPoint x="6950" y="5150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_60" edge="1" parent="1" source="class_LiquidityOperation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_OperationStatus" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7650" y="5060" />
+              <mxPoint x="7890" y="5060" />
+            </Array>
+            <mxPoint x="7650" y="3040" as="sourcePoint" />
+            <mxPoint x="7890" y="5150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_61" edge="1" parent="1" source="class_Report" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_ReportType" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5850" y="4990" />
+              <mxPoint x="8880" y="4990" />
+            </Array>
+            <mxPoint x="5850" y="3040" as="sourcePoint" />
+            <mxPoint x="8880" y="5150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_62" edge="1" parent="1" source="class_ApprovalRequest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_ApprovalStatus" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10180" y="4960" />
+              <mxPoint x="9860" y="4960" />
+            </Array>
+            <mxPoint x="10180" y="4390" as="sourcePoint" />
+            <mxPoint x="9860" y="5150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_63" edge="1" parent="1" source="class_ApprovalRequest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_ApprovalType" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10380" y="4390" as="sourcePoint" />
+            <mxPoint x="10380" y="5150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_64" edge="1" parent="1" source="class_Notification" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_UserRole" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4390" y="4920" />
+              <mxPoint x="9860" y="4920" />
+            </Array>
+            <mxPoint x="4390" y="3890" as="sourcePoint" />
+            <mxPoint x="9860" y="5550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_65" edge="1" parent="1" source="class_FileManager" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_CsvUtil" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="6100" />
+              <mxPoint x="960" y="6100" />
+            </Array>
+            <mxPoint x="840" y="3030" as="sourcePoint" />
+            <mxPoint x="960" y="6230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_66" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_IdGenerator" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="6080" />
+              <mxPoint x="2070" y="6080" />
+            </Array>
+            <mxPoint x="1600" y="2480" as="sourcePoint" />
+            <mxPoint x="2070" y="6230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_67" edge="1" parent="1" source="class_CentralBankSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_NumberUtil" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1720" y="6050" />
+              <mxPoint x="3180" y="6050" />
+            </Array>
+            <mxPoint x="1720" y="2480" as="sourcePoint" />
+            <mxPoint x="3180" y="6230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_68" edge="1" parent="1" source="class_AppRouter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_UrlUtil" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2050" y="6020" />
+              <mxPoint x="4310" y="6020" />
+            </Array>
+            <mxPoint x="2050" y="780" as="sourcePoint" />
+            <mxPoint x="4310" y="6230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_69" edge="1" parent="1" source="class_SystemSmokeTest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_CentralBankSystem" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5660" y="4860" />
+              <mxPoint x="1540" y="4860" />
+            </Array>
+            <mxPoint x="5660" y="6230" as="sourcePoint" />
+            <mxPoint x="1540" y="2480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_70" edge="1" parent="1" source="class_SystemSmokeTest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;dashed=1;strokeColor=#9aa4bd;strokeWidth=2;" target="class_ApprovalRequest" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="11280" y="6350" />
+              <mxPoint x="11280" y="4180" />
+            </Array>
+            <mxPoint x="6260" y="6350" as="sourcePoint" />
+            <mxPoint x="11050" y="4180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="class_CentralBankingSystemApp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="300" width="1050" x="300" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CentralBankingSystemApp_header" parent="class_CentralBankingSystemApp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7aa6c8;strokeColor=#7aa6c8;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CentralBankingSystemApp_title" parent="class_CentralBankingSystemApp" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 43px;&quot;&gt;CentralBankingSystemApp&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1034" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CentralBankingSystemApp_body" parent="class_CentralBankingSystemApp" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;- main entry point&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;- creates FileManager&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;- creates CentralBankSystem&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;- creates AppRouter&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 28px;&quot;&gt;+ main(args)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 28px;&quot;&gt;- createServer(system)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="218" width="1030" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_AppRouter" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="410" width="1400" x="1550" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="class_AppRouter_header" parent="class_AppRouter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7aa6c8;strokeColor=#7aa6c8;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="class_AppRouter_title" parent="class_AppRouter" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 51px;&quot;&gt;AppRouter&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1384" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_AppRouter_body" parent="class_AppRouter" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- system: CentralBankSystem&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- renderer: PageRenderer&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- loginManager: LoginManager&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- sessionManager: SessionManager&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 33px;&quot;&gt;+ handle(exchange)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 33px;&quot;&gt;- handleGet(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 33px;&quot;&gt;- handlePost(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 33px;&quot;&gt;- requireRole(...)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="328" width="1380" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_PageRenderer" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="340" width="1200" x="3200" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="class_PageRenderer_header" parent="class_PageRenderer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7aa6c8;strokeColor=#7aa6c8;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="class_PageRenderer_title" parent="class_PageRenderer" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 43px;&quot;&gt;PageRenderer&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1184" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_PageRenderer_body" parent="class_PageRenderer" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- builds public pages&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- builds admin portal&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- builds bank portal&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- builds governor portal&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ homePage(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ adminPage(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ bankPage(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ governorPage(...)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="258" width="1180" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LoginManager" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="320" width="1080" x="4700" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LoginManager_header" parent="class_LoginManager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7aa6c8;strokeColor=#7aa6c8;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LoginManager_title" parent="class_LoginManager" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;LoginManager&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1064" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LoginManager_body" parent="class_LoginManager" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;+ validates Governor&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;+ validates Administrator&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;+ validates CommercialBank&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ loginGovernor(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ loginAdministrator(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ loginCommercialBank(...)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="238" width="1060" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_SessionManager" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="280" width="960" x="6100" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="class_SessionManager_header" parent="class_SessionManager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9dbbd4;strokeColor=#9dbbd4;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="960" as="geometry" />
+        </mxCell>
+        <mxCell id="class_SessionManager_title" parent="class_SessionManager" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;SessionManager&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="944" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_SessionManager_body" parent="class_SessionManager" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- sessions: Map&amp;lt;String, UserSession&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 33px;&quot;&gt;+ create(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 33px;&quot;&gt;+ find(token)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 33px;&quot;&gt;+ destroy(token)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="198" width="940" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_UserSession" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="300" width="960" x="7300" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="class_UserSession_header" parent="class_UserSession" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9dbbd4;strokeColor=#9dbbd4;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="960" as="geometry" />
+        </mxCell>
+        <mxCell id="class_UserSession_title" parent="class_UserSession" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 41px;&quot;&gt;UserSession&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="944" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_UserSession_body" parent="class_UserSession" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- token: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- role: UserRole&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- userId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- displayName: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- createdAt: LocalDateTime&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="218" width="940" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_HttpHandler" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="210" width="780" x="8550" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="class_HttpHandler_header" parent="class_HttpHandler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9dbbd4;strokeColor=#9dbbd4;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="780" as="geometry" />
+        </mxCell>
+        <mxCell id="class_HttpHandler_title" parent="class_HttpHandler" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;&lt;font style=&quot;&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/font&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;font style=&quot;&quot;&gt;HttpHandler&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="764" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_HttpHandler_body" parent="class_HttpHandler" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;+ handle(exchange): void&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="128" width="760" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LoginResult" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="300" width="900" x="9600" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LoginResult_header" parent="class_LoginResult" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7aa6c8;strokeColor=#7aa6c8;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="900" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LoginResult_title" parent="class_LoginResult" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;&lt;font style=&quot;&quot;&gt;&amp;lt;&amp;lt;static inner&amp;gt;&amp;gt;&lt;/font&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;font style=&quot;&quot;&gt;LoginResult&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="884" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LoginResult_body" parent="class_LoginResult" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 34px;&quot;&gt;- success: boolean&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 34px;&quot;&gt;- role: UserRole&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 34px;&quot;&gt;- userId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 34px;&quot;&gt;- displayName: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 34px;&quot;&gt;- message: String&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="218" width="880" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CentralBankSystem" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="900" width="2220" x="430" y="1580" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CentralBankSystem_header" parent="class_CentralBankSystem" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9dbb92;strokeColor=#9dbb92;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="2220" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CentralBankSystem_title" parent="class_CentralBankSystem" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 57px;&quot;&gt;CentralBankSystem&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="2204" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CentralBankSystem_body" parent="class_CentralBankSystem" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- fileManager: FileManager&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- riskAssessment: RiskAssessment&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- fraudDetector: FraudDetector&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- reportService: ReportService&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- exchangeRateService: ExchangeRateService&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- centralBank: CentralBank&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- governor: Governor&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- administrators, banks, customers, accounts&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- loans, transactions, operations, policies&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- approvalRequests, notifications&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- auditTrail, loginLogs, activityLogs&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- pendingLoanQueue: Queue&amp;lt;Loan&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- recentAlerts: Stack&amp;lt;String&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- reserve: Reserve&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 31px;&quot;&gt;+ registerBankApplication(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 31px;&quot;&gt;+ applyLoan(...), decideLoan(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 31px;&quot;&gt;+ transferFunds(...), addCustomer(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 31px;&quot;&gt;+ submit/reviewApprovalRequest(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 31px;&quot;&gt;+ generateReport(type)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 31px;&quot;&gt;+ saveAll()&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="806" width="2200" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_FileManager" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="300" width="820" x="430" y="2730" as="geometry" />
+        </mxCell>
+        <mxCell id="class_FileManager_header" parent="class_FileManager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9dbb92;strokeColor=#9dbb92;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="820" as="geometry" />
+        </mxCell>
+        <mxCell id="class_FileManager_title" parent="class_FileManager" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 38px;&quot;&gt;FileManager&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="804" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_FileManager_body" parent="class_FileManager" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- dataDirectory: Path&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- CSV persistence boundary&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 31px;&quot;&gt;+ initialize()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 31px;&quot;&gt;+ load/save domain lists&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 31px;&quot;&gt;+ load/save logs&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="218" width="800" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_RiskAssessment" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="300" width="820" x="1370" y="2730" as="geometry" />
+        </mxCell>
+        <mxCell id="class_RiskAssessment_header" parent="class_RiskAssessment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b8cfad;strokeColor=#b8cfad;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="820" as="geometry" />
+        </mxCell>
+        <mxCell id="class_RiskAssessment_title" parent="class_RiskAssessment" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;RiskAssessment&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="804" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_RiskAssessment_body" parent="class_RiskAssessment" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 44px;&quot;&gt;+ evaluates bank risk&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 44px;&quot;&gt;+ evaluate(bank, loans, amount)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 44px;&quot;&gt;- levelFor(score)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="218" width="800" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_FraudDetector" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="300" width="820" x="2310" y="2730" as="geometry" />
+        </mxCell>
+        <mxCell id="class_FraudDetector_header" parent="class_FraudDetector" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b8cfad;strokeColor=#b8cfad;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="820" as="geometry" />
+        </mxCell>
+        <mxCell id="class_FraudDetector_title" parent="class_FraudDetector" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 37px;&quot;&gt;FraudDetector&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="804" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_FraudDetector_body" parent="class_FraudDetector" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;- LARGE_TRANSFER_LIMIT&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 36px;&quot;&gt;+ detect(transaction, history, sender)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 36px;&quot;&gt;- recentTransactions(...)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="218" width="800" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ReportService" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="310" width="920" x="880" y="3250" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ReportService_header" parent="class_ReportService" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9dbb92;strokeColor=#9dbb92;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="920" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ReportService_title" parent="class_ReportService" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;ReportService&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="904" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ReportService_body" parent="class_ReportService" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 43px;&quot;&gt;+ report text generation&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 43px;&quot;&gt;+ generate(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 43px;&quot;&gt;- bankReport(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 43px;&quot;&gt;- fraudReport(...)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="228" width="900" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ExchangeRateService" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="310" width="1000" x="1920" y="3250" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ExchangeRateService_header" parent="class_ExchangeRateService" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9dbb92;strokeColor=#9dbb92;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ExchangeRateService_title" parent="class_ExchangeRateService" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 43px;&quot;&gt;ExchangeRateService&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="984" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ExchangeRateService_body" parent="class_ExchangeRateService" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 34px;&quot;&gt;- fileManager: FileManager&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 34px;&quot;&gt;- httpClient: HttpClient&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 34px;&quot;&gt;- memoryCache: List&amp;lt;ExchangeRate&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 34px;&quot;&gt;+ currentRates()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 34px;&quot;&gt;- fetchLiveRates()&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="228" width="980" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_FinancialInstitution" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="300" width="1150" x="4100" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="class_FinancialInstitution_header" parent="class_FinancialInstitution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d3ab88;strokeColor=#d3ab88;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="class_FinancialInstitution_title" parent="class_FinancialInstitution" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;FinancialInstitution&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1134" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_FinancialInstitution_body" parent="class_FinancialInstitution" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;- id: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;- name: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;- address: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;- capital: double&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 32px;&quot;&gt;+ getFinancialHealthLabel()&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="218" width="1130" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CentralBank" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="360" width="1080" x="3850" y="2050" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CentralBank_header" parent="class_CentralBank" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c9905a;strokeColor=#c9905a;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CentralBank_title" parent="class_CentralBank" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;CentralBank&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1064" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CentralBank_body" parent="class_CentralBank" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 35px;&quot;&gt;- governor: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 35px;&quot;&gt;- establishedDate: LocalDate&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 35px;&quot;&gt;+ registerBank(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 35px;&quot;&gt;+ injectMoney(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 35px;&quot;&gt;+ generateReport(...)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="278" width="1060" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CommercialBank" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="560" width="1500" x="5350" y="1970" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CommercialBank_header" parent="class_CommercialBank" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c9905a;strokeColor=#c9905a;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CommercialBank_title" parent="class_CommercialBank" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;CommercialBank&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1484" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CommercialBank_body" parent="class_CommercialBank" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 39px;&quot;&gt;- licenseNo: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 39px;&quot;&gt;- type: BankType&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 39px;&quot;&gt;- status: BankStatus&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 39px;&quot;&gt;- riskLevel: RiskLevel&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 39px;&quot;&gt;- current/reserve balances&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 39px;&quot;&gt;- assets, liabilities, netWorth&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 39px;&quot;&gt;- creditRating, password, contactEmail&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 39px;&quot;&gt;+ requestLoan(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 39px;&quot;&gt;+ submitReport(report)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 39px;&quot;&gt;+ recalculateNetWorth()&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="478" width="1480" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Regulator" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="340" width="1080" x="3850" y="2660" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Regulator_header" parent="class_Regulator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d3ab88;strokeColor=#d3ab88;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Regulator_title" parent="class_Regulator" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 41px;&quot;&gt;Regulator&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1064" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Regulator_body" parent="class_Regulator" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- regulatorId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- name: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- contactEmail: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- phone: String&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ approveBank(bank)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ imposeRestriction(bank)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ viewReports(reports)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="258" width="1060" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Report" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="360" width="1080" x="5350" y="2680" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Report_header" parent="class_Report" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d3ab88;strokeColor=#d3ab88;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Report_title" parent="class_Report" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 39px;&quot;&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&amp;nbsp;&lt;/font&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;font style=&quot;font-size: 39px;&quot;&gt;Report&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1064" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Report_body" parent="class_Report" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- reportId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- reportType: ReportType&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- title: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- generatedOn: LocalDate&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 31px;&quot;&gt;+ generate()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 31px;&quot;&gt;+ view()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 31px;&quot;&gt;+ export(format)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="278" width="1060" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_TextReport" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="260" width="1080" x="5350" y="3160" as="geometry" />
+        </mxCell>
+        <mxCell id="class_TextReport_header" parent="class_TextReport" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2c7ad;strokeColor=#e2c7ad;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="class_TextReport_title" parent="class_TextReport" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;TextReport&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1064" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_TextReport_body" parent="class_TextReport" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;- data: String&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 30px;&quot;&gt;+ generate()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 30px;&quot;&gt;+ getData()&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="178" width="1060" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Notification" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="330" width="1080" x="3850" y="3560" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Notification_header" parent="class_Notification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2c7ad;strokeColor=#e2c7ad;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Notification_title" parent="class_Notification" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;Notification&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1064" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Notification_body" parent="class_Notification" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- notificationId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- recipientRole: UserRole&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- recipientId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- message: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- createdAt: LocalDateTime&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- read: boolean&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="248" width="1060" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_RiskResult" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="260" width="900" x="5350" y="3560" as="geometry" />
+        </mxCell>
+        <mxCell id="class_RiskResult_header" parent="class_RiskResult" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2c7ad;strokeColor=#e2c7ad;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="900" as="geometry" />
+        </mxCell>
+        <mxCell id="class_RiskResult_title" parent="class_RiskResult" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;RiskResult&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="884" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_RiskResult_body" parent="class_RiskResult" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 38px;&quot;&gt;- score: double&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 38px;&quot;&gt;- level: RiskLevel&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 38px;&quot;&gt;- explanation: String&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="178" width="880" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Customer" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="320" width="1000" x="7200" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Customer_header" parent="class_Customer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c9905a;strokeColor=#c9905a;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Customer_title" parent="class_Customer" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 37px;&quot;&gt;Customer&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="984" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Customer_body" parent="class_Customer" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- customerId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- bankId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- name: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- email: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- status: CustomerStatus&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- accountId: String&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="238" width="980" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Account" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="320" width="1000" x="8500" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Account_header" parent="class_Account" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d3ab88;strokeColor=#d3ab88;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Account_title" parent="class_Account" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;Account&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="984" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Account_body" parent="class_Account" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- accountId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- customerId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- bankId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- accountType: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- balance: double&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 31px;&quot;&gt;- active: boolean&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="238" width="980" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Loan" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="420" width="1000" x="7200" y="2050" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Loan_header" parent="class_Loan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c49a78;strokeColor=#c49a78;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Loan_title" parent="class_Loan" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;Loan&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="984" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Loan_body" parent="class_Loan" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- loanId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- bankId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- type: LoanType&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- amount: double&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- interestRate: double&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- status: LoanStatus&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- riskScore/riskLevel&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ approve(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ reject(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ disburse()&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="338" width="980" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Transaction" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="360" width="1080" x="8500" y="2050" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Transaction_header" parent="class_Transaction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c49a78;strokeColor=#c49a78;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Transaction_title" parent="class_Transaction" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;Transaction&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1064" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Transaction_body" parent="class_Transaction" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 37px;&quot;&gt;- transactionId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 37px;&quot;&gt;- senderBankId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 37px;&quot;&gt;- receiverBankId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 37px;&quot;&gt;- amount: double&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 37px;&quot;&gt;- dateTime: LocalDateTime&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 37px;&quot;&gt;- status: TransactionStatus&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="278" width="1060" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LiquidityOperation" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="360" width="1080" x="7200" y="2680" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LiquidityOperation_header" parent="class_LiquidityOperation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c49a78;strokeColor=#c49a78;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LiquidityOperation_title" parent="class_LiquidityOperation" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;LiquidityOperation&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1064" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LiquidityOperation_body" parent="class_LiquidityOperation" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- operationId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- operationType: OperationType&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- amount: double&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- targetBankId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- date: LocalDate&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;- status: OperationStatus&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="278" width="1060" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_MonetaryPolicy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="360" width="1050" x="8500" y="2680" as="geometry" />
+        </mxCell>
+        <mxCell id="class_MonetaryPolicy_header" parent="class_MonetaryPolicy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d3ab88;strokeColor=#d3ab88;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="class_MonetaryPolicy_title" parent="class_MonetaryPolicy" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;MonetaryPolicy&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1034" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_MonetaryPolicy_body" parent="class_MonetaryPolicy" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;- policyId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;- policyName: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;- interestRate: double&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;- reserveRequirement: double&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;- effectiveFrom/effectiveTo&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;- description: String&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="278" width="1030" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Reserve" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="320" width="1000" x="7200" y="3260" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Reserve_header" parent="class_Reserve" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d3ab88;strokeColor=#d3ab88;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Reserve_title" parent="class_Reserve" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;Reserve&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="984" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Reserve_body" parent="class_Reserve" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 29px;&quot;&gt;- nationalReserve: double&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 29px;&quot;&gt;- minimumRequiredReserve: double&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 29px;&quot;&gt;- lastUpdated: LocalDate&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 29px;&quot;&gt;+ supplyFunds(amount)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 29px;&quot;&gt;+ addReserve(amount)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 29px;&quot;&gt;+ isLow()&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="238" width="980" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ExchangeRate" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="360" width="1050" x="8500" y="3260" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ExchangeRate_header" parent="class_ExchangeRate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d3ab88;strokeColor=#d3ab88;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ExchangeRate_title" parent="class_ExchangeRate" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;ExchangeRate&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1034" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ExchangeRate_body" parent="class_ExchangeRate" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 29px;&quot;&gt;- currencyCode/name&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 29px;&quot;&gt;- referenceRate&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 29px;&quot;&gt;- buyingRate/sellingRate&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 29px;&quot;&gt;- lastUpdated&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 29px;&quot;&gt;- source&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 29px;&quot;&gt;- live: boolean&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 29px;&quot;&gt;+ withLive(live)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="278" width="1030" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Administrator" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="310" width="1000" x="7200" y="4100" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Administrator_header" parent="class_Administrator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d3ab88;strokeColor=#d3ab88;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Administrator_title" parent="class_Administrator" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;Administrator&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="984" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Administrator_body" parent="class_Administrator" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- administratorId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- name: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- password: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- email: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- enabled: boolean&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ setPassword(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ setEnabled(...)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="228" width="980" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Governor" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="260" width="900" x="8500" y="4100" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Governor_header" parent="class_Governor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d3ab88;strokeColor=#d3ab88;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="900" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Governor_title" parent="class_Governor" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;Governor&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="884" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_Governor_body" parent="class_Governor" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;- governorId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;- name: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;- password: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;- email: String&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="178" width="880" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ApprovalRequest" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="420" width="1250" x="9800" y="3970" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ApprovalRequest_header" parent="class_ApprovalRequest" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d3ab88;strokeColor=#d3ab88;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ApprovalRequest_title" parent="class_ApprovalRequest" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;ApprovalRequest&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1234" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ApprovalRequest_body" parent="class_ApprovalRequest" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 39px;&quot;&gt;- requestId: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 39px;&quot;&gt;- administratorId/name&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 39px;&quot;&gt;- requestType: ApprovalType&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 39px;&quot;&gt;- status: ApprovalStatus&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 39px;&quot;&gt;- governorId/remarks&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 39px;&quot;&gt;- targetId&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 39px;&quot;&gt;- payload: String&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="338" width="1230" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_BankStatus" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="250" width="780" x="500" y="5150" as="geometry" />
+        </mxCell>
+        <mxCell id="class_BankStatus_header" parent="class_BankStatus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a7afb7;strokeColor=#a7afb7;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="780" as="geometry" />
+        </mxCell>
+        <mxCell id="class_BankStatus_title" parent="class_BankStatus" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/font&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;BankStatus&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="764" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_BankStatus_body" parent="class_BankStatus" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;PENDING_APPROVAL&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;ACTIVE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;INACTIVE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;SUSPENDED&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;REVOKED&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;REJECTED&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="168" width="760" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_BankType" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="220" width="660" x="1420" y="5150" as="geometry" />
+        </mxCell>
+        <mxCell id="class_BankType_header" parent="class_BankType" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a7afb7;strokeColor=#a7afb7;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="660" as="geometry" />
+        </mxCell>
+        <mxCell id="class_BankType_title" parent="class_BankType" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/font&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;BankType&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="644" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_BankType_body" parent="class_BankType" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;COMMERCIAL&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;ISLAMIC&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;FOREIGN&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;DEVELOPMENT&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="138" width="640" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_RiskLevel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="220" width="660" x="2220" y="5150" as="geometry" />
+        </mxCell>
+        <mxCell id="class_RiskLevel_header" parent="class_RiskLevel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a7afb7;strokeColor=#a7afb7;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="660" as="geometry" />
+        </mxCell>
+        <mxCell id="class_RiskLevel_title" parent="class_RiskLevel" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/font&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;RiskLevel&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="644" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_RiskLevel_body" parent="class_RiskLevel" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;LOW&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;MEDIUM&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;HIGH&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;CRITICAL&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="138" width="640" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LoanType" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="190" width="660" x="3021" y="5150" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LoanType_header" parent="class_LoanType" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a7afb7;strokeColor=#a7afb7;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="660" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LoanType_title" parent="class_LoanType" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/font&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;LoanType&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="644" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LoanType_body" parent="class_LoanType" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;SHORT_TERM&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;LONG_TERM&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="108" width="640" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LoanStatus" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="250" width="760" x="3820" y="5150" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LoanStatus_header" parent="class_LoanStatus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a7afb7;strokeColor=#a7afb7;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="760" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LoanStatus_title" parent="class_LoanStatus" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/font&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;LoanStatus&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="744" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_LoanStatus_body" parent="class_LoanStatus" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;PENDING&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;APPROVED&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;DISBURSED&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;REJECTED&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;CLOSED&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="168" width="740" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CustomerStatus" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="190" width="700" x="4720" y="5150" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CustomerStatus_header" parent="class_CustomerStatus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a7afb7;strokeColor=#a7afb7;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="700" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CustomerStatus_title" parent="class_CustomerStatus" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/font&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;CustomerStatus&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="684" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CustomerStatus_body" parent="class_CustomerStatus" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;ACTIVE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;DORMANT&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="108" width="680" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_TransactionStatus" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="220" width="820" x="5580" y="5150" as="geometry" />
+        </mxCell>
+        <mxCell id="class_TransactionStatus_header" parent="class_TransactionStatus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a7afb7;strokeColor=#a7afb7;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="820" as="geometry" />
+        </mxCell>
+        <mxCell id="class_TransactionStatus_title" parent="class_TransactionStatus" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;TransactionStatus&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="804" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_TransactionStatus_body" parent="class_TransactionStatus" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;SUCCESS&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;FAILED&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;FLAGGED&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="138" width="800" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_OperationType" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="220" width="780" x="6560" y="5150" as="geometry" />
+        </mxCell>
+        <mxCell id="class_OperationType_header" parent="class_OperationType" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a7afb7;strokeColor=#a7afb7;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="780" as="geometry" />
+        </mxCell>
+        <mxCell id="class_OperationType_title" parent="class_OperationType" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/font&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;OperationType&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="764" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_OperationType_body" parent="class_OperationType" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;INJECTION&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;WITHDRAWAL&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;OPEN_MARKET&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;REPO&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="138" width="760" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_OperationStatus" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="220" width="790" x="7500" y="5150" as="geometry" />
+        </mxCell>
+        <mxCell id="class_OperationStatus_header" parent="class_OperationStatus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a7afb7;strokeColor=#a7afb7;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="790" as="geometry" />
+        </mxCell>
+        <mxCell id="class_OperationStatus_title" parent="class_OperationStatus" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/font&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;OperationStatus&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="774" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_OperationStatus_body" parent="class_OperationStatus" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;PENDING&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;COMPLETED&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;REJECTED&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="138" width="770" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ReportType" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="330" width="850" x="8460" y="5150" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ReportType_header" parent="class_ReportType" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a7afb7;strokeColor=#a7afb7;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="850" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ReportType_title" parent="class_ReportType" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/font&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;ReportType&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="834" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ReportType_body" parent="class_ReportType" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;BANK&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;CUSTOMER&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;TRANSACTION&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;RESERVE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;FRAUD&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;LOAN&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;INVESTMENT_RISK&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;PERFORMANCE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;SUMMARY&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="248" width="830" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ApprovalStatus" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="220" width="760" x="9480" y="5150" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ApprovalStatus_header" parent="class_ApprovalStatus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a7afb7;strokeColor=#a7afb7;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="760" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ApprovalStatus_title" parent="class_ApprovalStatus" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/font&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;ApprovalStatus&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="744" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ApprovalStatus_body" parent="class_ApprovalStatus" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;PENDING&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;APPROVED&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;REJECTED&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="138" width="740" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ApprovalType" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="330" width="1280" x="10380" y="5150" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ApprovalType_header" parent="class_ApprovalType" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a7afb7;strokeColor=#a7afb7;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ApprovalType_title" parent="class_ApprovalType" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/font&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;ApprovalType&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1264" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ApprovalType_body" parent="class_ApprovalType" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;MAJOR_MONETARY_POLICY_CHANGE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;POLICY_INTEREST_RATE_CHANGE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;MONEY_SUPPLY_ADJUSTMENT&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;COMMERCIAL_BANK_*&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;NATIONAL_*&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;FRAUD/STABILITY_*&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="248" width="1260" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_UserRole" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="220" width="760" x="9480" y="5550" as="geometry" />
+        </mxCell>
+        <mxCell id="class_UserRole_header" parent="class_UserRole" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a7afb7;strokeColor=#a7afb7;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="760" as="geometry" />
+        </mxCell>
+        <mxCell id="class_UserRole_title" parent="class_UserRole" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/font&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;UserRole&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="744" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_UserRole_body" parent="class_UserRole" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;GOVERNOR&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;ADMINISTRATOR&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;COMMERCIAL_BANK&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="138" width="740" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CsvUtil" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="250" width="920" x="500" y="6230" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CsvUtil_header" parent="class_CsvUtil" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9aa4bd;strokeColor=#9aa4bd;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="920" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CsvUtil_title" parent="class_CsvUtil" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;CsvUtil&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="904" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_CsvUtil_body" parent="class_CsvUtil" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- private constructor&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ join(values...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ split(line)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;- escape(value)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="168" width="900" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_IdGenerator" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="220" width="820" x="1660" y="6230" as="geometry" />
+        </mxCell>
+        <mxCell id="class_IdGenerator_header" parent="class_IdGenerator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9aa4bd;strokeColor=#9aa4bd;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="820" as="geometry" />
+        </mxCell>
+        <mxCell id="class_IdGenerator_title" parent="class_IdGenerator" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;IdGenerator&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="804" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_IdGenerator_body" parent="class_IdGenerator" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- COUNTER&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- FORMATTER&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ next(prefix)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="138" width="800" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_NumberUtil" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="250" width="920" x="2720" y="6230" as="geometry" />
+        </mxCell>
+        <mxCell id="class_NumberUtil_header" parent="class_NumberUtil" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9aa4bd;strokeColor=#9aa4bd;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="920" as="geometry" />
+        </mxCell>
+        <mxCell id="class_NumberUtil_title" parent="class_NumberUtil" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;NumberUtil&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="904" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_NumberUtil_body" parent="class_NumberUtil" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;- MONEY: DecimalFormat&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 28px;&quot;&gt;+ money(value)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 28px;&quot;&gt;+ percent(value)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 28px;&quot;&gt;+ parseDouble(value, fallback)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="168" width="900" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_UrlUtil" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="220" width="860" x="3880" y="6230" as="geometry" />
+        </mxCell>
+        <mxCell id="class_UrlUtil_header" parent="class_UrlUtil" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9aa4bd;strokeColor=#9aa4bd;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="860" as="geometry" />
+        </mxCell>
+        <mxCell id="class_UrlUtil_title" parent="class_UrlUtil" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;UrlUtil&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="844" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_UrlUtil_body" parent="class_UrlUtil" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;- private constructor&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 28px;&quot;&gt;+ parseQuery(query)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 28px;&quot;&gt;+ decode(value)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="138" width="840" x="10" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="class_SystemSmokeTest" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#365c6f;strokeWidth=3;arcSize=6;container=1;collapsible=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="280" width="1200" x="5060" y="6230" as="geometry" />
+        </mxCell>
+        <mxCell id="class_SystemSmokeTest_header" parent="class_SystemSmokeTest" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9aa4bd;strokeColor=#9aa4bd;strokeWidth=1;arcSize=6;connectable=0;" value="" vertex="1">
+          <mxGeometry height="74" width="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="class_SystemSmokeTest_title" parent="class_SystemSmokeTest" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Segoe UI;fontSize=18;fontColor=#ffffff;fontStyle=1;connectable=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;SystemSmokeTest&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="1184" x="8" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="class_SystemSmokeTest_body" parent="class_SystemSmokeTest" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Consolas;fontSize=12;fontColor=#22323f;spacingLeft=12;spacingTop=10;connectable=0;overflow=fill;" value="&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- web smoke checks&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;- HTTP login/get/post helpers&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;border:0;border-top:1px solid #e2edf2;margin:6px 0 6px 0;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;+ main(args)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;- runWebSmoke(...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0b5c77&quot; style=&quot;font-size: 26px;&quot;&gt;- latestPendingRegistration(...)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="198" width="1180" x="10" y="74" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
