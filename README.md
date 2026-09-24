@@ -46,6 +46,7 @@ The project combines a built-in Java HTTP server, server-rendered HTML/CSS, role
 | **Authentication** | Role-based login with HTTP session cookies |
 | **Default ports** | `8080`–`8090` fallback range |
 | **External service** | ExchangeRate-API with cached fallback |
+| **License** | Free use with required attribution — see [`LICENSE`](LICENSE) |
 
 ## 🚀 Key capabilities
 
@@ -276,6 +277,15 @@ The test verifies persistence initialization, the public homepage, exchange-rate
 | 👥 Use-case diagram | [Open diagram](Drawio%20Files/Use%20Case%20Diagram.drawio) |
 | 🖼️ Screenshots | [Browse screenshots](Screenshots/) |
 | 🎤 Presentations | [Browse presentations](Presentations/) |
+
+## 📜 License and attribution
+
+This project is free to use, copy, modify, and distribute under the [Central Banking System Free Use and Attribution License](LICENSE).
+
+If you reuse this project or a substantial portion of its code, you must include this attribution in your documentation, README, about page, or another prominent location:
+
+> Based on **Central Banking System** by Md Fuad Anan:  
+> https://github.com/mdfuadanan/Central-Banking-System
 
 ## ⚠️ Security and scope
 
