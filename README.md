@@ -1,89 +1,206 @@
-# Central Banking System
+<div align="center">
 
-A Java-based central banking simulator for **Design Project 1**. The application models central-bank supervision, commercial-bank operations, monetary policy, liquidity management, customer accounts, interbank transfers, approval workflows, risk assessment, fraud detection, reporting, and audit history.
+# 🏛️ Central Banking System
 
-It runs as a lightweight web application using Java's built-in `com.sun.net.httpserver.HttpServer`. Application data is stored in human-readable CSV files, so no external database or runtime framework is required.
+### A Java-powered central banking and financial regulation simulator
 
-## Features
+<p>
+  <strong>Design Project 1 · Group Project · Educational Simulation</strong>
+</p>
 
-- **Public portal** with monetary indicators, reserve guidance, notices, publications, CIPC information, and USD/EUR exchange rates.
-- **Governor portal** for administrator management, bank licensing decisions, monetary policy, reserve management, approval requests, reports, fraud review, and logs.
-- **Administrator portal** for commercial-bank supervision, bank applications, loan decisions, liquidity requests, reserve and policy requests, transactions, and reports.
-- **Commercial-bank portal** for central-bank loan applications, interbank transfers, customer and account management, deposits, withdrawals, profiles, notifications, and bank-specific reports.
-- **Two-stage approval workflow** in which administrator requests are reviewed by the Governor before sensitive actions are executed.
-- **Risk assessment** based on reserve ratio, debt-to-asset ratio, credit rating, previous loans, requested amount, and outstanding exposure.
-- **Fraud and AML checks** for large transfers, repeated failures, repeated transfers between the same parties, invalid amounts, and negative balances.
-- **CSV persistence** with automatic data-directory creation and seed data on first launch.
-- **Live exchange-rate retrieval** through ExchangeRate-API, with cached CSV fallback after a failed request.
-- **Text reports and audit trails** for banks, loans, transactions, reserves, fraud, investment risk, performance, and system summaries.
-- **End-to-end smoke test** covering persistence, HTTP pages, authentication, RBAC, approvals, banking operations, and reports.
+<p>
+  <a href="https://github.com/mdfuadanan/Central-Banking-System"><img src="https://img.shields.io/badge/Java-25%2B-0b4f91?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 25+"></a>
+  <a href="https://maven.apache.org/"><img src="https://img.shields.io/badge/Build-Maven%20%7C%20Batch-9a6700?style=for-the-badge&logo=apachemaven&logoColor=white" alt="Maven or Batch"></a>
+  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/jdk.httpserver/com/sun/net/httpserver/HttpServer.html"><img src="https://img.shields.io/badge/Server-Embedded%20HTTP-1a7f55?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Embedded HTTP server"></a>
+  <a href="#testing"><img src="https://img.shields.io/badge/Smoke%20Tests-Ready-1a7f55?style=for-the-badge&logo=githubactions&logoColor=white" alt="Smoke tests"></a>
+</p>
 
-## Technology
+<p>
+  <a href="#-overview">Overview</a> ·
+  <a href="#-key-capabilities">Capabilities</a> ·
+  <a href="#-quick-start">Quick Start</a> ·
+  <a href="#-user-portals">Portals</a> ·
+  <a href="#-documentation">Documentation</a>
+</p>
 
-- Java 25 source level (JDK 17+ is recommended by the project documentation; JDK 25 is required by the Maven compiler configuration).
-- Built-in `HttpServer` and Java HTTP Client.
-- Server-side HTML/CSS rendering in `PageRenderer`.
-- Maven or the included Windows batch scripts.
-- CSV flat-file storage under `data/`.
-- No third-party runtime framework or external database.
+</div>
 
-## Repository structure
+---
 
-```text
-.
-├── src/main/java/central_banking_system/
-│   ├── CentralBankingSystemApp.java  # Application entry point and port selection
-│   ├── AppRouter.java                # HTTP routes, forms, authentication, and RBAC
-│   ├── PageRenderer.java             # Public and authenticated HTML/CSS pages
-│   ├── CentralBankSystem.java        # Core domain operations and workflows
-│   ├── FileManager.java              # CSV loading, saving, initialization, and seed data
-│   ├── RiskAssessment.java           # Bank and loan risk scoring
-│   ├── FraudDetector.java            # Transfer anomaly and AML checks
-│   ├── ExchangeRateService.java      # Live rates, caching, and offline fallback
-│   ├── ReportService.java             # Text report generation
-│   ├── LoginManager.java              # Governor, administrator, and bank login checks
-│   ├── SessionManager.java            # In-memory HTTP session tokens
-│   ├── SystemSmokeTest.java           # Integration and HTTP smoke tests
-│   └── ...                            # Domain models and status/type enums
-├── src/main/resources/assets/         # Web assets, including the bank logo
-├── data/                               # Runtime CSV data and audit logs
-├── build/                              # Output from compile.bat and isolated test data
-├── target/                             # Maven build output
-├── Drawio Files/                       # Activity, class, sequence, and use-case diagrams
-├── Screenshots/                        # UI and diagram screenshots
-├── Project Reports/                    # Project proposal and final report
-├── Presentations/                      # Proposal and final presentations
-├── pom.xml                             # Maven configuration
-├── compile.bat                         # Windows compilation script
-├── run.bat                             # Windows compile-and-run script
-└── test.bat                            # Windows smoke-test script
+## ✨ Overview
+
+**Central Banking System** is an interactive web-based simulator that demonstrates how a central bank supervises financial institutions and manages national banking operations.
+
+The project combines a built-in Java HTTP server, server-rendered HTML/CSS, role-based access control, CSV persistence, approval workflows, risk scoring, fraud detection, liquidity operations, foreign-exchange rates, and financial reporting — all without a third-party runtime framework or external database.
+
+> 🎓 Built for learning, demonstration, and academic presentation — **not for production banking use**.
+
+## 📊 At a glance
+
+| | |
+|---|---|
+| **Primary language** | Java |
+| **Runtime** | JDK 25 configured; JDK 17+ supported by the manual path |
+| **Web server** | Java `com.sun.net.httpserver.HttpServer` |
+| **Persistence** | UTF-8 CSV flat files in `data/` |
+| **Authentication** | Role-based login with HTTP session cookies |
+| **Default ports** | `8080`–`8090` fallback range |
+| **External service** | ExchangeRate-API with cached fallback |
+
+## 🚀 Key capabilities
+
+<table>
+<tr>
+<td width="50%">
+
+### 🏦 Banking operations
+
+- Commercial-bank registration and lifecycle management
+- Interbank transfers and settlement records
+- Customer and account management
+- Deposits and withdrawals
+- Central-bank loan applications and decisions
+
+</td>
+<td width="50%">
+
+### 🏛️ Central-bank supervision
+
+- Governor approval queue
+- Monetary policy and reserve-ratio management
+- Liquidity injections and absorptions
+- Bank risk and net-worth monitoring
+- Audit, login, activity, and notification logs
+
+</td>
+</tr>
+<tr>
+<td>
+
+### 🛡️ Risk and security
+
+- Reserve and debt-to-asset risk scoring
+- Credit-rating assessment
+- Large-transfer and repeated-failure detection
+- Structuring-pattern alerts
+- Role-protected routes and session validation
+
+</td>
+<td>
+
+### 📈 Public information
+
+- Macroeconomic dashboard
+- Policy-rate and reserve guidance
+- USD/EUR exchange-rate cards
+- Public notices and publications
+- Customer Interest Protection Center information
+
+</td>
+</tr>
+</table>
+
+## 🧭 User portals
+
+```mermaid
+graph LR
+    Visitor[Public Visitor] --> Public[Public Portal]
+    Public --> Rates[FX Rates & Macro Indicators]
+    Public --> Notices[Notices & Publications]
+
+    Admin[Administrator] -->|Submits requests| Queue[Governor Approval Queue]
+    Admin --> Banks[Bank & Loan Supervision]
+    Admin --> Liquidity[Reserve & Liquidity Requests]
+
+    Governor[Governor] -->|Reviews| Queue
+    Governor --> Policy[Monetary Policy]
+    Governor --> Oversight[National Reports & Audit Logs]
+
+    Bank[Commercial Bank] --> Transfers[Interbank Transfers]
+    Bank --> Loans[Central Bank Loans]
+    Bank --> Customers[Customers & Accounts]
 ```
 
-## Getting started
+| Portal | Entry point | Main responsibilities |
+|---|---|---|
+| 🏛️ **Public** | [`/`](http://localhost:8080/) | Macroeconomic information, FX rates, notices, publications, and CIPC support |
+| 🛡️ **Governor** | [`/governor-login`](http://localhost:8080/governor-login) | Approvals, administrators, policy, reserves, oversight, fraud reports, and logs |
+| ⚙️ **Administrator** | [`/admin-login`](http://localhost:8080/admin-login) | Bank onboarding, loans, liquidity requests, transactions, and operational reports |
+| 🏦 **Commercial Bank** | [`/commercial-bank-login`](http://localhost:8080/commercial-bank-login) | Transfers, loans, customers, accounts, deposits, withdrawals, and bank reports |
 
-### Prerequisites
+## 🏗️ Architecture
 
-- JDK 25 for the configured Maven build. The batch/manual compiler path requires a JDK that supports the source syntax used by the project.
-- Windows for the `.bat` scripts, or a shell with `javac` and `java` on `PATH` for manual commands.
-- Internet access is optional. Without it, the exchange-rate service uses the cached values in `data/exchange_rates.csv`.
+```text
+Browser
+   │ HTTP GET / POST + CBS5SESSION cookie
+   ▼
+AppRouter ───────────────► SessionManager + LoginManager
+   │
+   ├──► PageRenderer          Server-rendered HTML/CSS dashboards
+   └──► CentralBankSystem     Core banking rules and workflows
+          ├── RiskAssessment
+          ├── FraudDetector
+          ├── ExchangeRateService ──► Live API / cached rates
+          ├── ReportService
+          └── FileManager ──────────► data/*.csv
+```
 
-### Windows
+### Repository map
+
+```text
+src/main/java/central_banking_system/
+├── CentralBankingSystemApp.java  # Starts the server on ports 8080–8090
+├── AppRouter.java                # Routes, forms, login, sessions, and RBAC
+├── PageRenderer.java             # Public and authenticated web pages
+├── CentralBankSystem.java        # Core domain operations and workflows
+├── FileManager.java              # CSV initialization, loading, and saving
+├── RiskAssessment.java           # Loan and bank risk scoring
+├── FraudDetector.java            # Transfer anomaly and AML checks
+├── ExchangeRateService.java      # Live rates and cached fallback
+├── ReportService.java             # Text report generation
+└── SystemSmokeTest.java           # HTTP and business-flow integration test
+
+data/                              # Runtime CSV data and logs
+src/main/resources/assets/          # Logo and web assets
+Drawio Files/                       # UML and process diagrams
+Screenshots/                        # Interface and diagram screenshots
+Project Reports/                    # Proposal and final report
+Presentations/                      # Proposal and final presentations
+```
+
+## ⚡ Quick start
+
+### Requirements
+
+- **JDK 25** for the configured Maven compiler.
+- Windows for the included `.bat` scripts, or a shell with `javac` and `java` available.
+- Internet is optional; exchange rates fall back to cached CSV values when the API is unavailable.
+
+### Windows — recommended
 
 ```bat
-compile.bat
 run.bat
 ```
 
-`run.bat` recompiles the project and starts the server. The application tries ports `8080` through `8090` and prints the selected URL in the console.
+`run.bat` compiles the project and launches the server. To compile or test separately:
 
-### Manual compilation and execution
+```bat
+compile.bat
+test.bat
+```
+
+### Manual commands
 
 ```bash
 mkdir -p build
 javac -d build src/main/java/central_banking_system/*.java
-# Copy the logo/resource directory when using the manual path:
-cp -R src/main/resources/* build/  # On Windows, use xcopy /E /I /Y src\main\resources build
 java -cp build central_banking_system.CentralBankingSystemApp
+```
+
+On Windows, copy the resource directory after compilation when using the manual path:
+
+```bat
+xcopy /E /I /Y src\main\resources build
 ```
 
 ### Maven
@@ -93,77 +210,81 @@ mvn clean compile
 java -cp target/classes central_banking_system.CentralBankingSystemApp
 ```
 
-The Maven project is configured with `central_banking_system.CentralBankingSystemApp` as its main class, but it does not declare the Maven Exec plugin; use the Java command above to launch after compiling.
+The application prints the actual URL when it starts. If port `8080` is busy, it automatically tries through `8090`.
 
-## Web portals
+## 🔐 Demo credentials
 
-Once the server is running, open:
+> These are seeded development credentials. Change or remove them before any real deployment.
 
-- Public portal: <http://localhost:8080/>
-- Login selection: <http://localhost:8080/login>
-- Administrator: <http://localhost:8080/admin-login>
-- Commercial bank: <http://localhost:8080/commercial-bank-login>
-- Governor: <http://localhost:8080/governor-login>
+| Role | ID | Password | Status |
+|---|---|---|---|
+| Governor | `GOV001` | `governor123` | Active |
+| Administrator | `admin` | `admin123` | Active |
+| Delta Commercial Bank | `B001` | `bank123` | Active |
+| Padma Islamic Bank | `B002` | `bank123` | Active |
+| Meghna Development Bank | `B003` | `bank123` | Suspended |
 
-If port 8080 is unavailable, use the port printed by the application.
+## 💾 Data and persistence
 
-### Seed credentials
+`FileManager` creates the `data/` directory and seeds missing files on first launch. Runtime records are stored in human-readable CSV files:
 
-These credentials are development/demo data initialized by `FileManager`; change them before any real deployment.
+- `banks.csv`, `customers.csv`, `accounts.csv`
+- `loans.csv`, `transactions.csv`, `operations.csv`
+- `reserve.csv`, `policies.csv`, `exchange_rates.csv`
+- `approval_requests.csv`, `notifications.csv`
+- `governor.csv`, `administrators.csv`
+- `audit_logs.csv`, `login_logs.csv`, `activity_logs.csv`
 
-| Role | ID | Password |
-|---|---|---|
-| Governor | `GOV001` | `governor123` |
-| Administrator | `admin` | `admin123` |
-| Delta Commercial Bank | `B001` | `bank123` |
-| Padma Islamic Bank | `B002` | `bank123` |
-| Meghna Development Bank | `B003` | `bank123` |
+Smoke tests use the isolated `build/test-data/` directory so normal demo data is not modified by the test run.
 
-The seeded Meghna bank is suspended and cannot log in until its status is changed through the application workflow.
+## ✅ Testing
 
-## Data persistence
-
-On startup, `FileManager` creates `data/` and initializes missing CSV files with sample records. The files represent:
-
-- Banks, administrators, governor, customers, and accounts.
-- Loans, interbank transactions, liquidity operations, and reserves.
-- Monetary policies and exchange rates.
-- Approval requests and notifications.
-- Audit, login, and activity logs.
-
-The application writes changes directly to these files. Keep backups of `data/` when experimenting with stateful workflows. Smoke tests use the isolated `build/test-data/` directory instead of the normal runtime data directory.
-
-## Testing
-
-Run the smoke suite on Windows with:
+Run the end-to-end smoke test on Windows:
 
 ```bat
 test.bat
 ```
 
-Or run it manually after compilation:
+Or manually after compilation:
 
 ```bash
 java -cp build central_banking_system.SystemSmokeTest
 ```
 
-The test starts an ephemeral HTTP server and verifies the public homepage, login pages, role boundaries, session cookies, administrator and bank portals, Governor approval of a new bank, banking operations, persistence initialization, and report generation.
+The test verifies persistence initialization, the public homepage, exchange-rate display, authentication, session cookies, RBAC redirects, all three protected portals, bank onboarding and Governor approval, banking operations, and report generation.
 
-## Design documentation
+## 🖼️ Interface preview
 
-- [Final project report](Project%20Reports/Final_Report_Design_Project_1.pdf)
-- [Project proposal](Project%20Reports/Project_Proposal.docx)
-- [Activity diagram](Drawio%20Files/Activity_Diagram.drawio)
-- [Class diagram](Drawio%20Files/Class_Diagram.drawio)
-- [Sequence diagram](Drawio%20Files/Sequence%20Diagram.drawio)
-- [Use-case diagram](Drawio%20Files/Use%20Case%20Diagram.drawio)
-- [Screenshots](Screenshots/)
-- [Presentations](Presentations/)
+<p align="center">
+  <img src="Screenshots/Home%20Page%20Part%201.png" alt="Central Banking System public homepage" width="48%">
+  <img src="Screenshots/Governor%20Dashborad.png" alt="Governor dashboard" width="48%">
+</p>
+<p align="center">
+  <img src="Screenshots/Administrator%20Dashboard%20Part%201.png" alt="Administrator dashboard" width="48%">
+  <img src="Screenshots/Commercial%20Bank%20Dashboard.png" alt="Commercial bank dashboard" width="48%">
+</p>
 
-## Security and scope notice
+## 📚 Documentation
 
-This is an educational simulator, not production banking software. Passwords are stored in the CSV data files, sessions are held in memory, and the built-in HTTP server is intended for local demonstration. Do not expose the application to an untrusted network or use real customer information.
+| Resource | Link |
+|---|---|
+| 📄 Final project report | [Open report](Project%20Reports/Final_Report_Design_Project_1.pdf) |
+| 📝 Project proposal | [Open proposal](Project%20Reports/Project_Proposal.docx) |
+| 🔄 Activity diagram | [Open diagram](Drawio%20Files/Activity_Diagram.drawio) |
+| 🧩 Class diagram | [Open diagram](Drawio%20Files/Class_Diagram.drawio) |
+| 🔗 Sequence diagram | [Open diagram](Drawio%20Files/Sequence%20Diagram.drawio) |
+| 👥 Use-case diagram | [Open diagram](Drawio%20Files/Use%20Case%20Diagram.drawio) |
+| 🖼️ Screenshots | [Browse screenshots](Screenshots/) |
+| 🎤 Presentations | [Browse presentations](Presentations/) |
 
-## Project context
+## ⚠️ Security and scope
 
-This repository is a group project for the **Design Project 1** course. It is primarily Java, with Windows batch files for convenience and supporting diagrams, reports, presentations, screenshots, and web assets.
+This is an educational simulator. It stores demo passwords in CSV files, keeps sessions in memory, and uses Java's lightweight built-in HTTP server. Do not expose it to an untrusted network or use real customer information.
+
+<div align="center">
+
+### Built with Java ☕ · Designed for learning 🎓 · Inspired by central banking 🏛️
+
+<a href="https://github.com/mdfuadanan/Central-Banking-System">⭐ View the repository</a>
+
+</div>
